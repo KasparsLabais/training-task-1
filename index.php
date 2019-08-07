@@ -27,6 +27,7 @@
         </nav>
 
     </div>
+
     <div class="container">
         <id="left-nav-bar" style:"overflow-auto">
     </div>
@@ -51,15 +52,70 @@
         <ul>Generate Mail Listr</ul>
         <ul>Unsubscribe Users</ul>
     </li>
-
-</ul>
-</ul>
-</div>
-
-<div class="container">
-    <div id="main-body">
+    <li>User Stats
+        <ul>PRS Callers Free Minutes Stats</ul>
+        <ul>Inactive Users</ul>
+        <ul>Webcam Stats</ul>
+        <ul>Management Stats</ul>
+        <ul>Topup Stats</ul>
+        <ul>Rampant VR Stats</ul>
+        <ul>Roku Stats</ul>
+        <ul>Lottery Stats</ul>
+    </li>
+    <li>Servers
+        <ul>MSioF</ul>
+        <ul>Pingdom</ul>
+        <ul>Portal</ul>
+    </li>
+    <li>Whitelist
+        <ul>Manage IPs</ul>
+    </li>
+    <li>Helpers
+        <ul>Clear Forgotton Password IP Cache</ul>
+        <ul>Clear any Memcache Key</ul>
+        <ul>User Editor</ul>
+        <ul>Show Creator</ul>
+    </li>
+    <li>Force Default Stream
+        Force the default stream id to
+        <div
+        <form>
+            <input type="number" name="from-value" min="1" max="9999999">
+            for
+            <input type="number" name="to-value" min="1" max="9999999">
+            seconds
+            <button type="submit">Submit</button>
+        </form>
+    </li>
+    </div>
+    <li>Localhost Helpers
+        <ul>Concat/Min JS & CSS</ul>
+    </li>
     </div>
 
+    <div class="container">
+        <div id="top-half-body">
+            <div id="main-user-details">
+                <li>
+                    <button type="button">Impersonate</button>
+                </li>
+            </div>
+            <div id="secondary-user-details">
+                <li>
+                    <ul>Status</ul>
+                    <ul>CCIVRID</ul>
+                    <ul>VIP LEVEL
+                        <button type="reset">Reset VIP</button>
+                        <button type="submit">Give VIP Status</button>
+                    </ul>
+                    <ul>Email</ul>
+                    <ul>dirtychatUserID</ul>
+                    <button type="submit">Change Password</button>
+                </li>
+                <div class="container">
+                    <div id="bottom-half-body>
+
+    </div>
 
 </body>
 
