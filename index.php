@@ -47,7 +47,7 @@
                 </ul>
             </div>
 
-            <div id="admin-panel-feeds"><
+            <div id="admin-panel-feeds">
                 <h1 class="admin-panel-subheader">
                     Feeds
                 </h1>
@@ -141,15 +141,14 @@
 <!-- END LEFT NAV BAR 30% -->
 
 <!-- MAIN INFO CONTAINER 70% --->
-<div id="admin-info-container" style="width:70%; height: 600px; background-color: red; float:left;">
-    <div id="main-user-details"
-         style="width:50%; height: 100px; background-color: grey; display: inline-block; float:left; color: white;">
+<div id="admin-info-container" style="width:70%; background-color: red; float:left;">
+    <div id="main-user-info-bos" style="width:50%; height: 100px; background-color: grey; display: inline-block; float:left; color: white;">
         <ul>
             <li style="width:100%; display:inline-block;">Users name</li>
             <li style="width:50%; display:inline-block; float:left;">Date registered</li>
         </ul>
     </div>
-    <div id="main-user-details-extended"
+    <div id="main-user-action-box"
          style="width:50%; height: 100px; background-color:green; display: inline-block; float:left; color: white;">
         <ul>
             <button type="button" class="main-user-details">Impersonate</button>
@@ -179,7 +178,7 @@
 
 
 <div class="container">
-    <div id="bottom-half-user-details" style="width:70%; height: 500px; background-color: hotpink; float:left;">>
+    <div id="bottom-half-user-details" style="width:70%; height: 500px; background-color: hotpink; float:left;">
     </div>
 </div>
 
