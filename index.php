@@ -141,47 +141,44 @@
 <!-- END LEFT NAV BAR 30% -->
 
 <!-- MAIN INFO CONTAINER 70% --->
-<div id="admin-info-container" style="width:70%; background-color: red; float:left;">
-    <div id="main-user-info-bos" style="width:50%; height: 100px; background-color: grey; display: inline-block; float:left; color: white;">
-        <ul>
-            <li style="width:100%; display:inline-block;">Users name</li>
-            <li style="width:50%; display:inline-block; float:left;">Date registered</li>
-        </ul>
+<div id="admin-info-container" style="width:70%; height: 1500px; background-color: red; float:left;">
+    <div id="main-user-details"
+         style="width:100%; height: 100px; background-color: coral; display: inline-block; float:left; color: white;">
+        <div id="main-user-info-box"
+             style="width:50%; height: 100px; background-color: grey; display: inline-block; float:left; color: white;">
+            <ul>
+                <li style="width:100%; display:inline-block;">ReturnOfDeMac</li>
+                <li style="width:50%; display:inline-block; float:left;">19/06/2018</li>
+            </ul>
+        </div>
+        <div id="main-user-action-box"
+             style="width:50%; height: 100px; background-color:green; display: inline-block; float:left; color: white;">
+            <ul>
+                <button type="button" class="main-user-details">Impersonate</button>
+                <button style="background-color: darkolivegreen; display:inline-block; float:left;" type="submit">Change
+                    Password
+                </button>
+            </ul>
+        </div>
     </div>
-    <div id="main-user-action-box"
-         style="width:50%; height: 100px; background-color:green; display: inline-block; float:left; color: white;">
-        <ul>
-            <button type="button" class="main-user-details">Impersonate</button>
-            <button style="background-color: darkolivegreen; display:inline-block; float:left;" type="submit">Change
-                Password
-            </button>
-        </ul>
-    </div>
-
     <div id="secondary-user-details"
          style="background-color:white; width:100%; height:400px; display:inline-block; float:left;">
         <ul>
-            <li style="background-color: brown; width: 20%; display:inline-block; float:left;">Status</li>
-            <li style="background-color: orange; width: 20%; display:inline-block; float:left;;">CCIVRID</li>
-            <li style="background-color: lawngreen; width: 20%; display:inline-block; float:left;">VIP LEVEL</li>
-
+            <li style="background-color: brown; width: 20%; display:inline-block; float:left;">Status: Active</li>
+            <li style="background-color: orange; width: 20%; display:inline-block; float:left;">CCIVRID: </li>
+            <li style="background-color: lawngreen; width: 20%; display:inline-block; float:left;">VIP LEVEL: 20</li>
             <!--VIP BUTTONS NEED HOME FIRST
             <button style="background-color: yellow; display:inline-block;" type="reset">Reset VIP</button>
             <button style="background-color: red; display:inline-block;" type="submit">Give VIP Status</button>
             -->
-
-
-            <li style="background-color: blue; width: 20%; display:inline-block; float:left;">Email</li>
+            <li style="background-color: blue; width: 20%; display:inline-block; float:left;">Email: dmclaren@firestormmedia.tv</li>
             <li style="background-color: purple; width: 20%; display:inline-block; float:left;">dirtychatUserID</li>
+        </ul>
     </div>
-</div>
-
-
-<div class="container">
-    <div id="bottom-half-user-details" style="width:70%; height: 500px; background-color: hotpink; float:left;">
+    <div id="subscription-details" style="width:100%; height: 500px; background-color: hotpink; float:left;">
     </div>
-</div>
 
+</div>
 
 </body>
 </html>
