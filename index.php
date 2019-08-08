@@ -21,7 +21,13 @@
                 <li><a href="#">VIDEOS</a></li>
                 <li><a href="#">SCHEDULE</a></li>
                 <li><a href="#">TRENDING</a></li>
-                <li><a href="#">SOCIAL</a></li>
+                <li><a href="#">SOCIAL</a>
+                    <select>
+                        <option>INSTAGRAM</option>
+                        <option>TWITTER</option>
+                        <option>SNAPCHAT</option>
+                        <option>CONTACT US</option>
+                    </select></li>
                 <li><a href="#">SHOWS</a></li>
                 <li><a href="#">ADMIN</a></li>
             </ul>
@@ -34,7 +40,7 @@
     <div id="admin-nav-bar" style="background-color: lightpink; width:30%; float:left;">
         <div id="admin-info" style="background: lightblue; width: 100%;">
             <h1>Admin Info</h1>
-            <li>Admin Name</li>
+            <li>Admin Name Danielle</li>
             <li>Role</li>
         </div>
         <div id="admin-panel-controls" style="width: 90%; height 20%; background-color:yellow;">
@@ -164,18 +170,132 @@
     <div id="secondary-user-details"
          style="background-color:white; width:100%; height:400px; display:inline-block; float:left;">
         <ul>
-            <li style="background-color: brown; width: 20%; display:inline-block; float:left;">Status: Active</li>
-            <li style="background-color: orange; width: 20%; display:inline-block; float:left;">CCIVRID: </li>
-            <li style="background-color: lawngreen; width: 20%; display:inline-block; float:left;">VIP LEVEL: 20</li>
+            <li style="background-color: brown; width: 20%; display:inline-block; float:left;">Status Active</li>
+            <li style="background-color: orange; width: 20%; display:inline-block; float:left;">CCIVRID 2913291</li>
+            <li style="background-color: lawngreen; width: 20%; display:inline-block; float:left;">VIP LEVEL 20</li>
             <!--VIP BUTTONS NEED HOME FIRST
             <button style="background-color: yellow; display:inline-block;" type="reset">Reset VIP</button>
             <button style="background-color: red; display:inline-block;" type="submit">Give VIP Status</button>
             -->
-            <li style="background-color: blue; width: 20%; display:inline-block; float:left;">Email: dmclaren@firestormmedia.tv</li>
-            <li style="background-color: purple; width: 20%; display:inline-block; float:left;">dirtychatUserID</li>
+            <li style="background-color: blue; width: 20%; display:inline-block; float:left;">Email
+                dmclaren@firestormmedia.tv
+            </li>
+            <li style="background-color: purple; width: 20%; display:inline-block; float:left;">dirtychatUserID 483788
+            </li>
         </ul>
     </div>
     <div id="subscription-details" style="width:100%; height: 500px; background-color: hotpink; float:left;">
+        <h2>Subscription Info</h2>
+        <table style="width:100%">
+            <tr>
+                <th>PurchaseID</th>
+                <th>SubID</th>
+                <th>DateStart</th>
+                <th>DateEnd</th>
+                <th>Method</th>
+                <th>Rebill Enabled</th>
+                <th>Rebilled From</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+        </table>
     </div>
 
 </div>
