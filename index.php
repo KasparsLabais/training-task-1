@@ -186,6 +186,117 @@
         </ul>
     </div>
     <div id="subscription-details" style="width:100%; height: 500px; background-color: hotpink; float:left;">
+        <h2>Subscription Info</h2>
+        <table style="width:100%">
+            <tr>
+                <th>PurchaseID</th>
+                <th>SubID</th>
+                <th>DateStart</th>
+                <th>DateEnd</th>
+                <th>Method</th>
+                <th>Rebill Enabled</th>
+                <th>Rebilled From</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+            <tr>
+                <th>145846</th>
+                <th>554</th>
+                <th>16/05/2019 07:22:30</th>
+                <th>15/06/2019 07:22:30</th>
+                <th>7</th>
+                <th>0</th>
+                <th>114740</th>
+            </tr>
+        </table>
     </div>
 
 </div>
