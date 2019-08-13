@@ -1,6 +1,163 @@
-/* BUTTONS */
 
-.btn {
+.rampant-nav {
+    list-style-type: none;
+    background-color: black;
+    text-transform: uppercase;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
 }
 
-/* END BUTTONS */
+
+.rampant-nav-title {
+    float: left;
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+.rampant-nav-select {
+    float: left;
+    display: inline;
+    height: 70px;
+}
+
+.rampant-nav-select a {
+    display: block;
+    color: white;
+    padding: 25px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.rampant-nav-select a:hover {
+    background-color: grey;
+    position: relative;
+}
+
+
+.social-dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+    padding: 25px 15px;
+    text-decoration: none;
+}
+
+.social-dropdown:hover .social-dropdown-options {
+    display: block;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+
+.social-dropdown-options {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    padding: 12px 16px;
+    z-index: 1;
+    min-width: 15px;
+    color: white;
+
+}
+
+#admin-nav-bar {
+    background-color: lightpink;
+    width: 30%;
+    float: left;
+}
+
+#admin-info {
+    background-color: lightblue;
+    width: 100%;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+}
+
+.admin-inf-header {
+    color: white;
+    font-family: Arial;
+}
+
+.admin-panel-subheader {
+    color: white;
+    text-align: left;
+    font-family: Arial;
+}
+
+#admin-panel-controls {
+    width: 90%;
+    height: 20%;
+    background-color: black;
+    color: black;
+}
+
+.container {
+    list-style-type: none;
+}
+
+/* MAIN INFO CONTAINER */
+#main-user-info-box {
+    font-family: Roboto;
+    color: black;
+}
+
+.username {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.registered-date {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.impersonate-button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.change-password-button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.user-info-table {
+    width: 100%;
+}
+
+.user-data-th {
+    height: 50px;
+}
+
+
+

@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/admin.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/265560036b.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
@@ -12,24 +14,26 @@
 <body style="margin: 0px; border: 0px;">
 
 <div class="container">
-    <div id="rampant-nav-bar" style="width: 100%; background-color: black; height: 15%; color: white;">
-        <h1>RampantTV</h1>
+    <div id="rampant-nav-bar">
         <nav>
-            <ul>
-                <li><a href="#">CHANNELS</a></li>
-                <li><a href="#">FORUM</a></li>
-                <li><a href="#">VIDEOS</a></li>
-                <li><a href="#">SCHEDULE</a></li>
-                <li><a href="#">TRENDING</a></li>
-                <li><a href="#">SOCIAL</a>
-                    <select>
-                        <option>INSTAGRAM</option>
-                        <option>TWITTER</option>
-                        <option>SNAPCHAT</option>
-                        <option>CONTACT US</option>
-                    </select></li>
-                <li><a href="#">SHOWS</a></li>
-                <li><a href="#">ADMIN</a></li>
+            <ul class="rampant-nav">
+                <img src="https://www.rampant.tv/images/rampant_logo.png" alt="Rampant Logo" class="rampant-nav-title">
+                <li class="rampant-nav-select"><a href="#">CHANNELS</a></li>
+                <li class="rampant-nav-select"><a href="#">FORUM</a></li>
+                <li class="rampant-nav-select"><a href="#">VIDEOS</a></li>
+                <li class="rampant-nav-select"><a href="#">SCHEDULE</a></li>
+                <li class="rampant-nav-select"><a href="#">TRENDING</a></li>
+                <div class="social-dropdown">
+                    <span class="social-dropbutton">SOCIAL</span>
+                    <div class="social-dropdown-options">
+                        <a href="https://www.instagram.com/rampant__tv/">INSTAGRAM</a>
+                        <a href="https://twitter.com/RampantTV">TWITTER</a>
+                        <a href="https://www.snapchat.com/add/rampant_tv">SNAPCHAT</a>
+                        <a href="mailto:support@rampant.tv">CONTACT US</a>
+                    </div>
+                </div>
+                <li class="rampant-nav-select"><a href="#">SHOWS</a></li>
+                <li class="rampant-nav-select"><a href="#">ADMIN</a></li>
             </ul>
         </nav>
 
@@ -37,13 +41,14 @@
 </div>
 <div id="container" style="width:100%; background-color:green;">
     <!-- LEFT NAV BAR 30% -->
-    <div id="admin-nav-bar" style="background-color: lightpink; width:30%; float:left;">
-        <div id="admin-info" style="background: lightblue; width: 100%;">
-            <h1>Admin Info</h1>
-            <li>Admin Name Danielle</li>
-            <li>Role</li>
+    <div id="admin-nav-bar">
+        <div id="admin-info">
+            <h1 class="admin-inf-header">Admin Info</h1>
+            <i class="fas fa-user-tag"></i>
+            <li>Danielle McLaren</li>
+            <li>Administrator</li>
         </div>
-        <div id="admin-panel-controls" style="width: 90%; height 20%; background-color:yellow;">
+        <div id="admin-panel-controls">
             <div id="admin-panel-marketing">
                 <h1 class="admin-panel-subheader">
                     Marketing
@@ -134,9 +139,7 @@
                 </form>
             </div>
             <div id="admin-panel-localhost-helpers">
-                <h1>
-                    Localhost Helpers
-                </h1>
+                <h1 class="admin-panel-subheader">Localhost Helpers </h1>
                 <ul>
                     <li><a href="#">Concan/Min JS & CSS</a></li>
                 </ul>
@@ -151,18 +154,17 @@
     <div id="main-user-details"
          style="width:100%; height: 100px; background-color: coral; display: inline-block; float:left; color: white;">
         <div id="main-user-info-box"
-             style="width:50%; height: 100px; background-color: grey; display: inline-block; float:left; color: white;">
+             style="width:50%; height: 100px; background-color: dimgrey; display: inline-block; float:left;">
             <ul>
-                <li style="width:100%; display:inline-block;">ReturnOfDeMac</li>
-                <li style="width:50%; display:inline-block; float:left;">19/06/2018</li>
+                <li class="username">ReturnOfDeMac</li>
+                <li class="registered-date">19/06/2018</li>
             </ul>
         </div>
         <div id="main-user-action-box"
              style="width:50%; height: 100px; background-color:green; display: inline-block; float:left; color: white;">
             <ul>
-                <button type="button" class="main-user-details">Impersonate</button>
-                <button style="background-color: darkolivegreen; display:inline-block; float:left;" type="submit">Change
-                    Password
+                <button type="button" class="impersonate-button">Impersonate</button>
+                <button type="submit" class="change-password-button">Change Password
                 </button>
             </ul>
         </div>
@@ -170,18 +172,17 @@
     <div id="secondary-user-details"
          style="background-color:white; width:100%; height:400px; display:inline-block; float:left;">
         <ul>
-            <li style="background-color: brown; width: 20%; display:inline-block; float:left;">Status Active</li>
-            <li style="background-color: orange; width: 20%; display:inline-block; float:left;">CCIVRID 2913291</li>
-            <li style="background-color: lawngreen; width: 20%; display:inline-block; float:left;">VIP LEVEL 20</li>
+            <li style="background-color: brown; width: 20%; display:inline-block; float:left;">Status: Active</li>
+            <li style="background-color: orange; width: 20%; display:inline-block; float:left;">CCIVRID:</li>
+            <li style="background-color: lawngreen; width: 20%; display:inline-block; float:left;">VIP LEVEL: 20</li>
             <!--VIP BUTTONS NEED HOME FIRST
             <button style="background-color: yellow; display:inline-block;" type="reset">Reset VIP</button>
             <button style="background-color: red; display:inline-block;" type="submit">Give VIP Status</button>
             -->
-            <li style="background-color: blue; width: 20%; display:inline-block; float:left;">Email
+            <li style="background-color: blue; width: 20%; display:inline-block; float:left;">Email:
                 dmclaren@firestormmedia.tv
             </li>
-            <li style="background-color: purple; width: 20%; display:inline-block; float:left;">dirtychatUserID 483788
-            </li>
+            <li style="background-color: purple; width: 20%; display:inline-block; float:left;">dirtychatUserID</li>
         </ul>
     </div>
     <div id="subscription-details" style="width:100%; height: 500px; background-color: hotpink; float:left;">
