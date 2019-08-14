@@ -43,10 +43,11 @@
     <!-- LEFT NAV BAR 30% -->
     <div id="admin-nav-bar">
         <div id="admin-info">
-            <h1 class="admin-inf-header">Admin Info</h1>
-            <i class="fas fa-user-tag"></i>
-            <li>Danielle McLaren</li>
-            <li>Administrator</li>
+            <img src="http://3.bp.blogspot.com/-ku5soa8KViM/TkA22DK8fdI/AAAAAAAAAoo/dQ0Fqlv1_bo/s1600/dogs-wearing-wigs-0011.jpg" alt="admin-profile-pic" style="border-radius: 50%; height: 75px; float: right; padding: 10px 10px 10px 10px;">
+            <div id="admin-role-name">
+            <li style="font-size: 20px">Danielle McLaren</li>
+            <li style="font-size: 20px; color: rgba(0,0,0,0.5)">Administrator</li>
+            </div>
         </div>
         <div id="admin-panel-controls">
             <div id="admin-panel-marketing">
@@ -147,9 +148,8 @@
         </div>
     </div>
 </div>
-<!-- END LEFT NAV BAR 30% -->
 
-<!-- MAIN INFO CONTAINER 70% --->
+
 <div id="admin-info-container" style="width:70%; height: 1500px; background-color: red; float:left;">
     <div id="main-user-details"
          style="width:100%; height: 100px; background-color: coral; display: inline-block; float:left; color: white;">
@@ -169,23 +169,31 @@
             </ul>
         </div>
     </div>
-    <div id="secondary-user-details"
-         style="background-color:white; width:100%; height:400px; display:inline-block; float:left;">
-        <ul>
-            <li style="background-color: brown; width: 20%; display:inline-block; float:left;">Status: Active</li>
-            <li style="background-color: orange; width: 20%; display:inline-block; float:left;">CCIVRID:</li>
-            <li style="background-color: lawngreen; width: 20%; display:inline-block; float:left;">VIP LEVEL: 20</li>
-            <!--VIP BUTTONS NEED HOME FIRST
-            <button style="background-color: yellow; display:inline-block;" type="reset">Reset VIP</button>
-            <button style="background-color: red; display:inline-block;" type="submit">Give VIP Status</button>
-            -->
-            <li style="background-color: blue; width: 20%; display:inline-block; float:left;">Email:
-                dmclaren@firestormmedia.tv
-            </li>
-            <li style="background-color: purple; width: 20%; display:inline-block; float:left;">dirtychatUserID</li>
-        </ul>
+    <div id="secondary-user-details" style="background-color:white; width:100%; height: 10%; float:left; margin: auto; display: inline-block;">
+        <div class="user-info-box">
+            <h3 class="user-info-title">STATUS</h3>
+            <p style="text-align: center;">ACTIVE</p>
+        </div>
+        <div class="user-info-box">
+            <h3 class="user-info-title">CCIVRID</h3>
+            <p style="text-align: center;">2913291</p>
+        </div>
+        <div class="user-info-box">
+            <h3 class="user-info-title">VIP LEVEL</h3>
+            <p style="text-align: center;">GOLD</p>
+        </div>
+        <div class="user-info-box">
+            <h3 class="user-info-title">EMAIL</h3>
+            <p style="text-align: center;">dmclaren@firestormmedia.tv</p>
+        </div>
+        <div class="user-info-box">
+        <h3 class="user-info-title">DirtyChat ID</h3>
+        <p style="text-align: center;">483788</p>
+        </div>
     </div>
-    <div id="subscription-details" style="width:100%; height: 500px; background-color: hotpink; float:left;">
+
+
+    <div id="subscription-details" style="width:70%; height: 500px; background-color: hotpink; float:left;">
         <h2>Subscription Info</h2>
         <table style="width:100%">
             <tr>

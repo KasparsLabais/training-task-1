@@ -65,18 +65,34 @@
 
 }
 
+.social-dropdown-options a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* LEFT ADMIN NAV BAR */
+
 #admin-nav-bar {
-    background-color: lightpink;
-    width: 30%;
+    background-color: cadetblue;
+    width: 20%;
     float: left;
+    font-family: "Roboto", sans-serif;
 }
 
 #admin-info {
-    background-color: lightblue;
+    background-color: indianred;
     width: 100%;
     float: left;
     list-style-type: none;
     text-align: center;
+    font-family: Roboto, Verdana;
+    color: white;
+}
+
+#admin-role-name {
+    padding: 30px 10px 10px 10px;
+    float: right;
 }
 
 .admin-inf-header {
@@ -86,15 +102,30 @@
 
 .admin-panel-subheader {
     color: white;
-    text-align: left;
-    font-family: Arial;
+    font-size: 25px;
+    border-bottom: 2px solid;
+    border-color: white;
 }
 
 #admin-panel-controls {
-    width: 90%;
+    width: 100%;
     height: 20%;
     background-color: black;
     color: black;
+    padding-left: 40px;
+    padding-top: 130px;
+}
+
+#admin-panel-controls a {
+    text-decoration: none;
+    color: white;
+}
+
+#admin-panel-controls ul {
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    list-style-type: none;
 }
 
 .container {
@@ -151,13 +182,18 @@
     font-size: 16px;
 }
 
-.user-info-table {
-    width: 100%;
+/* USER INFO BOX */
+
+.user-info-title {
+    text-align: center;
+    background-color: lightgrey;
+    font-family: "Roboto", sans-serif;
 }
 
-.user-data-th {
-    height: 50px;
+.user-info-box {
+    width: 20%;
+    float: left;
+    font-family: "Roboto", sans-serif;
 }
-
 
 
