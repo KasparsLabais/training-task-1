@@ -9,7 +9,8 @@
     <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
-    <<script type="text/javascript" src="whatthefuck.js"></script>
+    <
+    <script type="text/javascript" src="whatthefuck.js"></script>
 
 </head>
 
@@ -43,73 +44,86 @@
 </div>
 
 <div id="main-container" style="width:100%; background-color:green;">
-<div class="left-div">
-    <div class="small-admin-panel" style="width:30%;">
-        <div class="small-admin-text">
-            <h4>Danielle</h4>
-            <p>Admin</p>
+    <div class="left-div">
+        <div class="small-admin-panel">
+            <div class="small-admin-text">
+                <h4>Danielle McLaren</h4>
+                <p>Admin</p>
+            </div>
+       <!-- <div class="small-admin-panel" style="width:30%;">
+            <div class="small-admin-text">
+                <h4>Danielle</h4>
+                <p>Admin</p>
+            </div>
+            <div class="small-admin-image">
+            </div>
         </div>
-        <div class="small-admin-image">
-        </div>
-    </div>
-    <div class="small-admin-sidebar">
-        <h3 class="item-father-1"><i class="fas fa-ad"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marketing</h3>
-        <ul class="item-child-1">
-            <li>Promo Manager</li>
-        </ul>
-        <h3 style="margin-top: 0;"><i class="fas fa-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feeds</h3>
-        <ul>
-            <li>Feeds Management</li>
-            <li>Add New Feed</li>
-        </ul>
-        <h3 style="margin-top: 0;"><i class="fas fa-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User/Sales Stats</h3>
-        <ul>
-            <li>Generate Mail List</li>
-            <li>Unsubscribe Users</li>
-        </ul>
-        <h3 style="margin-top: 0;"><i class="fas fa-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User Stats</h3>
-        <ul>
-            <li><a href="#">PRS Callers Free Mins Stats</a></li>
-            <li><a href="#">Inactive Users</a></li>
-            <li><a href="#">Webcam Stats</a></li>
-            <li><a href="#">Management Stats</a></li>
-            <li><a href="#">Topup Stats</a></li>
-            <li><a href="#">Rampant VR Stats</a></li>
-            <li><a href="#">Roku Stats</a></li>
-            <li><a href="#">Lottery Stats</a></li>
-        </ul>
-        <h3 style="margin-top: 0;"><i class="fas fa-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Servers</h3>
-        <ul>
-            <li><a href="#">MSioF</a></li>
-            <li><a href="#">Pingdom</a></li>
-            <li><a href="#">Portal</a></li>
-        </ul>
-        <h3 style="margin-top: 0;"><i class="fas fa-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WhiteList</h3>
-        <ul>
-            <li><a href="#">Manage IPs</a></li>
-        </ul>
-        <h3 style="margin-top: 0;"><i class="fas fa-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helpers</h3>
-        <ul>
-            <li><a href="#">Clear Forgotten Password IP Cache</a></li>
-            <li><a href="#">Clear any Memcache Key</a></li>
-            <li><a href="#">User Editor</a></li>
-            <li><a href="#">Show Creator</a></li>
-        </ul>
-        <h3 style="margin-top: 0;"><i class="fas fa-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Force Default Stream</h3>
-        <form>
-            <p>Force the default stream id to</p>
-            <input type="number" name="from-value" min="1" max="99999"> for
-            <input type="number" name="to-value" min="1" max="99999">
-            <button type="submit" value="submit">Set</button>
-        </form>
-        <h3 style="margin-top: 0;"><i class="fas fa-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localhost Helpers</h3>
-        <ul>
-            <li><a href="#">Concan/Min JS & CSS</a></li>
-        </ul>
-    </div>
-</div>
-</div>
+            -->
 
+
+        <div class="small-admin-sidebar">
+            <h3 class="item-father-1"><i class="fas fa-ad"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marketing</h3>
+            <ul class="item-child-1">
+                <li>Promo Manager</li>
+            </ul>
+            <h3 style="margin-top: 0;"><i class="fas fa-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feeds</h3>
+            <ul>
+                <li>Feeds Management</li>
+                <li>Add New Feed</li>
+            </ul>
+            <h3 style="margin-top: 0;"><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail List</h3>
+            <ul>
+                <li>Generate Mail List</li>
+                <li>Unsubscribe Users</li>
+            </ul>
+            <h3 style="margin-top: 0;"><i class="fa fa-line-chart"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User Stats
+            </h3>
+            <ul>
+                <li><a href="#">PRS Callers Free Mins Stats</a></li>
+                <li><a href="#">Inactive Users</a></li>
+                <li><a href="#">Webcam Stats</a></li>
+                <li><a href="#">Management Stats</a></li>
+                <li><a href="#">Topup Stats</a></li>
+                <li><a href="#">Rampant VR Stats</a></li>
+                <li><a href="#">Roku Stats</a></li>
+                <li><a href="#">Lottery Stats</a></li>
+            </ul>
+            <h3 style="margin-top: 0;"><i class="fa fa-server"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Servers</h3>
+            <ul>
+                <li><a href="#">MSioF</a></li>
+                <li><a href="#">Pingdom</a></li>
+                <li><a href="#">Portal</a></li>
+            </ul>
+            <h3 style="margin-top: 0;"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WhiteList
+            </h3>
+            <ul>
+                <li><a href="#">Manage IPs</a></li>
+            </ul>
+            <h3 style="margin-top: 0;"><i class="fa fa-question-circle"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helpers
+            </h3>
+            <ul>
+                <li><a href="#">Clear Forgotten Password IP Cache</a></li>
+                <li><a href="#">Clear any Memcache Key</a></li>
+                <li><a href="#">User Editor</a></li>
+                <li><a href="#">Show Creator</a></li>
+            </ul>
+            <h3 style="margin-top: 0;"><i class="fa fa-caret-square-o-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Force
+                Default Stream</h3>
+            <form>
+                <p style="color:white; font-family: 'Roboto', sans-serif;font-weight: 400;
+    line-height: 2rem;">Force the default stream id to</p>
+                <input type="number" name="from-value" min="1" max="99999"> for
+                <input type="number" name="to-value" min="1" max="99999">
+                <button type="submit" value="submit">Set</button>
+            </form>
+            <h3 style="margin-top: 0;"><i class="fa fa-database"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localhost
+                Helpers</h3>
+            <ul>
+                <li><a href="#">Concan/Min JS & CSS</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 
 
 <div class="right-div">

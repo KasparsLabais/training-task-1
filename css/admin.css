@@ -8,6 +8,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.87);
+    float: left;
 }
 
 
@@ -330,14 +331,17 @@ a:hover, .dropdown-btn:hover {
 .left-div {
     background-color: #212121;
     height: 100%;
-    width: 30%;
+    width: 20%;
+    float: left;
 }
 
 .left-div h3 {
     color: #ECEFF1;
     /*margin-left: 20px;*/
 }
-
+.small-admin-panel {
+    float: right;
+}
 .right-div {
     background-color: #CFD8DC;
     height: 100%;
@@ -353,6 +357,7 @@ a:hover, .dropdown-btn:hover {
 .small-admin-sidebar {
 background: black;
     float: left;
+    width: 100%;
 }
 
 .small-admin-sidebar h3 {
@@ -382,6 +387,7 @@ background: black;
 
 .small-admin-panel {
     height: 76px;
+    width: 100%;
     /*background-color: #424242;*/
 }
 
