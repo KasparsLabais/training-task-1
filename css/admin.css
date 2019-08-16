@@ -72,192 +72,8 @@
     color: white;
 }
 
-/* NAV BAR CODE ENDS HERE */
-/* LEFT ADMIN NAV BAR
+/* RAMPANT NAV BAR CODE ENDS HERE */
 
-#admin-nav-bar {
-    background-color: cadetblue;
-    width: 30%;
-    float: left;
-    font-family: "Roboto", sans-serif;
-}
-
-
-.dropdown-btn {
-    float: right;
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border-bottom: 2px solid;
-    border-color: black;
-    cursor: pointer;
-    background: none;
-}
-
-.dropdown-btn:hover, .dropdown-btn:focus {
-    background-color: #2980B9;
-}
-.admin-panel-marketing-dropdown {
-    position: relative;
-    display: block;
-}
-
-.marketing-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #353535;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.marketing-dropdown-content a {
-    color: black;
-}
-
-.marketing-dropdown-content a:hover {background-color: #262626}
-
-
-.show {display:block;}
-
-
-/* DROP DOWN MENU MARKETING
-
-.marketing-dropdown {
-    display: block;
-}
-
-.fa-caret-down {
-    float: right;
-    padding-right: 8px;
-}
-
-.marketing-dropdown-content {
-    display: none;
-    background-color: #262626;
-    padding-left: 10px;
-}
-
-.marketing-dropdown-content a {
-    color: white;
-    text-decoration: none;
-    display: block;
-}
-
-.marketing-dropdown-content a:hover {
-    background-color: black;
-}
-
-.marketing-dropdown:hover .marketing-dropdown-content {
-    display: block;
-}
-
-.marketing-dropdown:hover .dropdown-btn {
-    background-color: black;
-}
-
-.active {
-    background-color: cadetblue;
-    color: white;
-}
-
-
-.dropdown-btn {
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
-    display: block;
-    border: none;
-    background: none;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
-}
-
-a:hover, .dropdown-btn:hover {
-    color: #f1f1f1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#admin-info {
-    background-color: #333333;
-    width: 100%;
-    float: left;
-    list-style-type: none;
-    text-align: center;
-    font-family: Roboto, Verdana;
-    color: white;
-}
-
-#admin-role-name {
-    font-size: 40px;
-}
-
-.admin-inf-header {
-    color: white;
-    font-family: Arial;
-}
-
-.admin-panel-subheader {
-    color: #63B0CD;
-    font-size: 25px;
-    background: none;
-    border: none;
-    font-family: "Roboto", sans-serif;
-
-}
-
-#admin-panel-controls {
-    height: 20%;
-    background-color: #353535;
-    color: black;
-    padding-left: 40px;
-    padding-top: 130px;
-}
-
-#admin-panel-controls a {
-    text-decoration: none;
-    color: white;
-}
-
-#admin-panel-controls li:hover {
-    background-color: #262626;
-}
-
-#admin-panel-controls ul {
-    text-decoration: none;
-    color: white;
-    padding: 0px;
-    list-style-type: none;
-}
-
-.container {
-    list-style-type: none;
-}
 
 /* MAIN INFO CONTAINER */
 #main-user-info-box {
@@ -287,28 +103,6 @@ a:hover, .dropdown-btn:hover {
     font-size: 16px;
 }
 
-.impersonate-button {
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-.change-password-button {
-    background-color: white;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
 /* USER INFO BOX */
 
 .user-info-title {
@@ -322,7 +116,6 @@ a:hover, .dropdown-btn:hover {
     float: left;
     font-family: "Roboto", sans-serif;
 }
-
 
 
 /* ADDING NEW SHIT
@@ -391,6 +184,11 @@ background: black;
     /*background-color: #424242;*/
 }
 
+#stream-form {
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
 .small-admin-panel .small-admin-text {
     width: 80%;
     float:left;
@@ -457,16 +255,82 @@ ul li:hover {
 
 
 
+/* USER DETAILS TESTING CSS */
 
 
+.user-info-top-box {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+.user-details {
+    position: relative;
+    padding: 0;
+}
+.user-image img {
+    margin: auto;
+    position: center;
+    width: 100px;
+    padding-left: 334px;
+    padding-top: 30px;
+    z-index: 1;
 
+}
 
+.user-details .user-info-block {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    padding-top: 35px;
+    background: #000000;
+}
 
+.user-info-block .user-heading {
+    margin: 10px 0 0;
+    display: table-caption;
+    padding-left: 40px;
+}
 
+.user-info-block .navigation {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-color: white;
+}
 
+.user-info-block .user-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color:black;
+}
 
+.user-info-top-box h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Roboto, SansSerif;
+}
 
+.help-block {
+    font-size: 25px;
+    font-family: Roboto, SansSerif;
+}
 
+.impersonate-button {
+    float: left;
+    width: 40%;
+}
+
+.change-password-button {
+    float: right;
+    width: 40%;
+
+}
 
 
 
