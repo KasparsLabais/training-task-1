@@ -129,9 +129,6 @@
     </div>
 
 
-    <div class="right-div">
-
-    </div>
     <!--
     <div id="container" style="width:100%; background-color:green;">
         LEFT NAV BAR 30%
@@ -248,29 +245,36 @@
     </div>
     -->
 
-    <div id="admin-info-container" style="width:70%; height: 1500px; background-color: red; float:left; padding-left: 180px;">
+    <div id="admin-info-container" style="width:70%; height: 1500px; background-color: #9E9E9E; float:left;">
         <div id="main-user-details"
              style="width:100%; height: 100px; background-color: coral; display: inline-block; float:left; color: white;">
-            <div class="user-info-top-box">
-                <div class="user-info-block ">
+            <div class="user-info-left" style="width: 50%; background-color: red; display: inline-block">
+                <div class="user-info-block" style="background-color:black;">
                     <div class="user-heading ">
                         <h3>ReturnOfDemac</h3>
                         <span class="help-block "> Registered: 19/06/2018</span>
                     </div>
-                    <ul class="navigation ">
-                        <div class="user-body">
-                            <div class="account-options ">
-                                <div id="impersonate" class="tab-pane">
-                                    <button type="button " class="impersonate-button ">Impersonate</button>
-                                </div>
-                                <div id="password" class="tab-pane ">
-                                    <button type="submit" class="change-password-button">Change Password
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
                 </div>
             </div>
+
+
+            <div class="user-info-right" style="width: 50%;display: inline-block; float: right; background-color: green; height: 150px;">
+                <div class="user-right-buttons">
+                    <div class="account-options">
+                        <div id="impersonate">
+                            <button type="button " class="impersonate-button">Impersonate</button>
+                        </div>
+                        <div id="password">
+                            <button type="submit" class="change-password-button">Change Password
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
             <!--<div id="main-user-details"
                  style="width:100%; height: 100px; background-color: coral; display: inline-block; float:left; color: white;">
                 <div id="main-user-info-box"
@@ -316,7 +320,8 @@
             </div>
 
 
-         <div id="subscription-details" style="width: 100%;height: 500px;background-color: white;color: black;font-family: Roboto, sans-serif;">
+            <div id="subscription-details"
+                 style="width: 100%;height: 500px;background-color: white;color: black;font-family: Roboto, sans-serif;">
                 <h2>Subscription Info</h2>
                 <table style="width:100%">
                     <tr>
