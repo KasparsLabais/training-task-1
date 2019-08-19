@@ -105,12 +105,6 @@
 
 /* USER INFO BOX */
 
-.user-info-title {
-    text-align: center;
-    background-color: lightgrey;
-    font-family: "Roboto", sans-serif;
-}
-
 .user-info-box {
     width: 20%;
     float: left;
@@ -134,6 +128,7 @@
 }
 .small-admin-panel {
     float: right;
+    width: 100%;
 }
 
 .small-admin-sidebar {
@@ -167,15 +162,11 @@ background: black;
     color: white;
 }
 
-.small-admin-panel {
-    height: 76px;
-    width: 100%;
-    /*background-color: #424242;*/
-}
-
 #stream-form {
     padding-bottom: 10px;
     padding-left: 20px;
+    font-family: Roboto, SansSerif;
+    font-size: 16px;
 }
 
 .small-admin-panel .small-admin-text {
@@ -219,21 +210,21 @@ ul {
 
 }
 
-ul li{
+.item-child li{
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-image: linear-gradient(45deg, rgba(2,136,209 ,0.5), 50%, transparent 50%);
     background-position: 100%;
     background-size: 400%;
-
+    color: white;
 
     transition: 350ms all ease-in-out;
 }
 
 ul li:hover {
     background-position: 0%;
-    color: #212121;
+    color: white;
 }
 
 .display-none {
@@ -274,11 +265,12 @@ ul li:hover {
     padding-top: 35px;
     background: #000000;
 }
-
-.user-info-block .user-heading {
-    margin: 10px 0 0;
-    display: table-caption;
-    padding-left: 40px;
+.user-heading {
+    float: left;
+    font-family: Roboto, SansSerif;
+    font-weight: 400;
+    background-color: grey;
+    color: white;
 }
 
 .user-info-block .navigation {
@@ -314,15 +306,18 @@ ul li:hover {
 /* BUTTONS */
 
 .impersonate-button {
-    width: 100%;
-    background-color: #008CBA;
+    margin-top: 50px;
+    height: 40px;
+    width: 45%;
     border: none;
+    float: left;
+    margin-left: 10px;
+    font-family: Roboto, SansSerif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background-color: #03A9F4;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
 }
 .impersonate-button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -330,16 +325,22 @@ ul li:hover {
 
 
 .change-password-button {
-    width: 100%;
-    background-color: #008CBA;
+    margin-top: 50px;
+    height: 40px;
+    width: 45%;
     border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    float: left;
+    margin-left: 10px;
+    font-family: Roboto, SansSerif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    cursor: pointer;
 }
+
+.change-password-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 
 /* USER SECONDARY DETAILS */
 #secondary-user-details {
@@ -363,6 +364,8 @@ ul li:hover {
 .user-info-title {
     font-size: 12px;
     padding-right: 30px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
 }
 
 p {
@@ -371,7 +374,10 @@ p {
     font-weight: bold;
 }
 
-
+.item-father {
+    margin-top: 0;
+    font-size: 16px;
+}
 
 
 

@@ -61,25 +61,25 @@
 
 
             <div class="small-admin-sidebar">
-                <h3 class="item-father-1"><i class="fas fa-ad"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marketing</h3>
-                <ul class="item-child-1">
+                <h3 class="item-father"><i class="fas fa-ad"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marketing</h3>
+                <ul class="item-child">
                     <li>Promo Manager</li>
                 </ul>
-                <h3 style="margin-top: 0;"><i class="fas fa-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feeds</h3>
-                <ul>
+                <h3 class="item-father"><i class="fas fa-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feeds</h3>
+                <ul class="item-child">
                     <li>Feeds Management</li>
                     <li>Add New Feed</li>
                 </ul>
-                <h3 style="margin-top: 0;"><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail List
+                <h3 class="item-father"><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mail List
                 </h3>
-                <ul>
+                <ul class="item-child">
                     <li>Generate Mail List</li>
                     <li>Unsubscribe Users</li>
                 </ul>
-                <h3 style="margin-top: 0;"><i class="fa fa-line-chart"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User
+                <h3 class="item-father"><i class="fa fa-line-chart"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User
                     Stats
                 </h3>
-                <ul>
+                <ul class="item-child">
                     <li><a href="#">PRS Callers Free Mins Stats</a></li>
                     <li><a href="#">Inactive Users</a></li>
                     <li><a href="#">Webcam Stats</a></li>
@@ -89,26 +89,26 @@
                     <li><a href="#">Roku Stats</a></li>
                     <li><a href="#">Lottery Stats</a></li>
                 </ul>
-                <h3 style="margin-top: 0;"><i class="fa fa-server"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Servers</h3>
-                <ul>
+                <h3 class="item-father"><i class="fa fa-server"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Servers</h3>
+                <ul class="item-child">
                     <li><a href="#">MSioF</a></li>
                     <li><a href="#">Pingdom</a></li>
                     <li><a href="#">Portal</a></li>
                 </ul>
-                <h3 style="margin-top: 0;"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WhiteList
+                <h3 class="item-father"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WhiteList
                 </h3>
-                <ul>
+                <ul class="item-child">
                     <li><a href="#">Manage IPs</a></li>
                 </ul>
-                <h3 style="margin-top: 0;"><i class="fa fa-question-circle"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helpers
+                <h3 class="item-father"><i class="fa fa-question-circle"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Helpers
                 </h3>
-                <ul>
+                <ul class="item-child">
                     <li><a href="#">Clear Forgotten Password IP Cache</a></li>
                     <li><a href="#">Clear any Memcache Key</a></li>
                     <li><a href="#">User Editor</a></li>
                     <li><a href="#">Show Creator</a></li>
                 </ul>
-                <h3 style="margin-top: 0;"><i class="fa fa-caret-square-o-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Force
+                <h3 class="item-father"><i class="fa fa-caret-square-o-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Force
                     Default Stream</h3>
                 <form id="stream-form" style="display: block;">
                     <p style="color:white; font-family: 'Roboto', sans-serif;font-weight: 400;
@@ -119,9 +119,9 @@
                     <input type="number" name="to-value" min="1" max="99999">
                     <button type="submit" value="submit">Set</button>
                 </form>
-                <h3 style="margin-top: 0;"><i class="fa fa-database"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localhost
+                <h3 class="item-father"><i class="fa fa-database"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Localhost
                     Helpers</h3>
-                <ul>
+                <ul class="item-child">
                     <li><a href="#">Concan/Min JS & CSS</a></li>
                 </ul>
             </div>
@@ -245,12 +245,12 @@
     </div>
     -->
 
-    <div id="admin-info-container" style="width:70%; height: 1500px; background-color: #9E9E9E; float:left;">
+    <div id="admin-info-container" style="width:80%; height: 1500px; background-color: #9E9E9E; float:left;">
         <div id="main-user-details"
              style="width:100%; height: 100px; background-color: coral; display: inline-block; float:left; color: white;">
-            <div class="user-info-left" style="width: 50%; background-color: red; display: inline-block">
+            <div class="user-info-left" style="height: 150px; width: 50%; background-color: red; display: inline-block">
                 <div class="user-info-block" style="background-color:black;">
-                    <div class="user-heading ">
+                    <div class="user-heading">
                         <h3>ReturnOfDemac</h3>
                         <span class="help-block "> Registered: 19/06/2018</span>
                     </div>
