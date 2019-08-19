@@ -259,12 +259,12 @@
 
 
             <div class="user-info-right" style="width: 50%;display: inline-block; float: right; background-color: green; height: 150px;">
-                <div class="user-right-buttons">
+                <div class="user-right-buttons" style="width: 100%; display: inlineblock:">
                     <div class="account-options">
-                        <div id="impersonate">
-                            <button type="button " class="impersonate-button">Impersonate</button>
+                        <div id="impersonate" style="width:50%; display: inline-block; float:left;">
+                            <button type="button" class="impersonate-button">Impersonate</button>
                         </div>
-                        <div id="password">
+                        <div id="password" style="width:50%;display: inline-block; float:left;">
                             <button type="submit" class="change-password-button">Change Password
                             </button>
                         </div>
@@ -274,27 +274,6 @@
 
             </div>
 
-
-            <!--<div id="main-user-details"
-                 style="width:100%; height: 100px; background-color: coral; display: inline-block; float:left; color: white;">
-                <div id="main-user-info-box"
-                     style="width:50%; height: 100px; background-color: dimgrey; display: inline-block; float:left;">
-                    <ul>
-                        <li class="username">ReturnOfDeMac</li>
-                        <li class="registered-date">19/06/2018</li>
-                    </ul>
-                </div>
-                <div id="main-user-action-box"
-                     style="width:50%; height: 100px; background-color:green; display: inline-block; float:left; color: white;">
-                    <ul>
-                        <button type="button" class="impersonate-button">Impersonate</button>
-                        <button type="submit" class="change-password-button">Change Password
-                        </button>
-                    </ul>
-                </div>
-            </div>
-
-            -->
             <div id="secondary-user-details"
                  style="background-color:white; width:100%; color: black; float:left; margin: auto; display: inline-block;">
                 <div class="user-info-box">

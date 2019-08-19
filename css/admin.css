@@ -314,7 +314,7 @@ ul li:hover {
 /* BUTTONS */
 
 .impersonate-button {
-    width: 50%;
+    width: 100%;
     background-color: #008CBA;
     border: none;
     color: white;
@@ -330,7 +330,7 @@ ul li:hover {
 
 
 .change-password-button {
-    width: 50%;
+    width: 100%;
     background-color: #008CBA;
     border: none;
     color: white;
@@ -340,6 +340,37 @@ ul li:hover {
     display: inline-block;
     font-size: 16px;
 }
+
+/* USER SECONDARY DETAILS */
+#secondary-user-details {
+    width: 100%;
+    display: inline-block;
+    color: black;
+    float: left;
+}
+
+.user-info-box {
+    width: 18%;
+    object-fit: cover;
+    display: inline-block;
+    padding-left: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    border-right: 2px solid;
+    border-color: grey;
+}
+
+.user-info-title {
+    font-size: 12px;
+    padding-right: 30px;
+}
+
+p {
+    font-size: 20px;
+    padding-right: 30px;
+    font-weight: bold;
+}
+
 
 
 
