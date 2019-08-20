@@ -49,15 +49,6 @@
                 <h4>Danielle McLaren</h4>
                 <p>Admin</p>
             </div>
-            <!-- <div class="small-admin-panel" style="width:30%;">
-                 <div class="small-admin-text">
-                     <h4>Danielle</h4>
-                     <p>Admin</p>
-                 </div>
-                 <div class="small-admin-image">
-                 </div>
-             </div>
-                 -->
 
 
             <div class="small-admin-sidebar">
@@ -128,138 +119,21 @@
         </div>
     </div>
 
-
-    <!--
-    <div id="container" style="width:100%; background-color:green;">
-        LEFT NAV BAR 30%
-        <div id="admin-nav-bar">
-            <div id="admin-info">
-                <img src="http://3.bp.blogspot.com/-ku5soa8KViM/TkA22DK8fdI/AAAAAAAAAoo/dQ0Fqlv1_bo/s1600/dogs-wearing-wigs-0011.jpg"
-                     alt="admin-profile-pic"
-                     style="border-radius: 50%; height: 75px; float: right; padding: 10px 10px 10px 10px;">
-                <div id="admin-role-name">
-                    <li style="font-size: 20px; color: #63B0CD;">Danielle McLaren</li>
-                    <li style="font-size: 20px; color: white;">Administrator</li>
-                </div>
-            </div>
-
-
-            <div id="admin-panel-controls">
-
-                <div id="admin-panel-marketing">
-                    <h1 class="admin-panel-subheader">
-                        Marketing
-                    </h1>
-                    <ul>
-                        <li><a href="#">Promo Manager</a></li>
-                    </ul>
-
-            <div id="admin-panel-feeds">
-                <h1 class="admin-panel-subheader">
-                    Feeds
-                </h1>
-                <ul>
-                    <li><a href="#">Feeds Management</a></li>
-                    <li><a href="#">Add New Feeds</a></li>
-                </ul>
-            </div>
-
-            <div id="admin-panel-usersales-stats">
-                <h1 class="admin-panel-subheader">
-                    User/Sales Stats
-                </h1>
-                <ul>
-                    <li><a href="#">Generate Mail List</a></li>
-                    <li><a href="#">Unsubscribe Users</a></li>
-                </ul>
-            </div>
-
-            <div id="admin-panel-user-stats">
-                <h1 class="admin-panel-subheader">
-                    User Stats
-                </h1>
-                <ul>
-                    <li><a href="#">PRS Callers Free Mins Stats</a></li>
-                    <li><a href="#">Inactive Users</a></li>
-                    <li><a href="#">Webcam Stats</a></li>
-                    <li><a href="#">Management Stats</a></li>
-                    <li><a href="#">Topup Stats</a></li>
-                    <li><a href="#">Rampant VR Stats</a></li>
-                    <li><a href="#">Roku Stats</a></li>
-                    <li><a href="#">Lottery Stats</a></li>
-                </ul>
-            </div>
-
-            <div id="admin-panel-servers">
-                <h1 class="admin-panel-subheader">
-                    Servers
-                </h1>
-                <ul>
-                    <li><a href="#">MSioF</a></li>
-                    <li><a href="#">Pingdom</a></li>
-                    <li><a href="#">Portal</a></li>
-                </ul>
-            </div>
-
-            <div id="admin-panel-whitelist">
-                <h1 class="admin-panel-subheader">
-                    WhiteList
-                </h1>
-                <ul>
-                    <li><a href="#">Manage IPs</a></li>
-                </ul>
-            </div>
-
-            <div id="admin-panel-helpers">
-                <h1 class="admin-panel-subheader">
-                    Helpers
-                </h1>
-                <ul>
-                    <li><a href="#">Clear Forgotten Password IP Cache</a></li>
-                    <li><a href="#">Clear any Memcache Key</a></li>
-                    <li><a href="#">User Editor</a></li>
-                    <li><a href="#">Show Creator</a></li>
-                </ul>
-            </div>
-
-            <div id="admin-panel-force-default-stream">
-                <h1 class="admin-panel-subheader">
-                    Force Default Stream
-                </h1>
-                <form>
-                    <p>Force the default stream id to</p>
-                    <input type="number" name="from-value" min="1" max="99999">
-                    for
-                    <input type="number" name="to-value" min="1" max="99999">
-                    <button type="submit" value="submit">Set</button>
-                </form>
-            </div>
-            <div id="admin-panel-localhost-helpers">
-                <h1 class="admin-panel-subheader">Localhost Helpers </h1>
-                <ul>
-                    <li><a href="#">Concan/Min JS & CSS</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    </div>
-    -->
-
-    <div id="admin-info-container" style="width:80%; height: 1500px; background-color: #9E9E9E; display: inline-block;">
+    <div id="admin-info-container">
         <div id="main-user-details"
-             style="width:100%; height: 100px; background-color: coral; display: inline-block; color: white;">
-            <div class="user-info-left" style="height: 150px; width: 50%; background-color: red; display: inline-block">
-                <div class="user-info-block" style="background-color:black;">
+             style="width:100%; height: 300px; background-color: coral; display: inline-block; color: white;">
+            <div class="user-info-left" style="height: 200px; width: 50%; background-color: red; display: inline-block;">
+                <!-- <div class="user-info-block" style="background-color:black;">
                     <div class="user-heading">
                         <h3>ReturnOfDemac</h3>
                         <span class="help-block "> Registered: 19/06/2018</span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
 
-            <div class="user-info-right" style="width: 50%;display: inline-block; background-color: green; height: 150px;">
-                <div class="user-right-buttons" style="width: 100%; display: inline-block:">
+            <div class="user-info-right" style="width: 50%;display: inline-block; background-color: green; height: 200px;">
+                <div class="user-right-buttons" style="width: 100%; display: inline-block;">
                     <div class="account-options">
                         <div id="impersonate" style="width:50%; display: inline-block;">
                             <button type="button" class="impersonate-button">Impersonate</button>
