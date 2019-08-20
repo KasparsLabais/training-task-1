@@ -245,9 +245,9 @@
     </div>
     -->
 
-    <div id="admin-info-container" style="width:80%; height: 1500px; background-color: #9E9E9E; float:left;">
+    <div id="admin-info-container" style="width:80%; height: 1500px; background-color: #9E9E9E; display: inline-block;">
         <div id="main-user-details"
-             style="width:100%; height: 100px; background-color: coral; display: inline-block; float:left; color: white;">
+             style="width:100%; height: 100px; background-color: coral; display: inline-block; color: white;">
             <div class="user-info-left" style="height: 150px; width: 50%; background-color: red; display: inline-block">
                 <div class="user-info-block" style="background-color:black;">
                     <div class="user-heading">
@@ -258,13 +258,13 @@
             </div>
 
 
-            <div class="user-info-right" style="width: 50%;display: inline-block; float: right; background-color: green; height: 150px;">
-                <div class="user-right-buttons" style="width: 100%; display: inlineblock:">
+            <div class="user-info-right" style="width: 50%;display: inline-block; background-color: green; height: 150px;">
+                <div class="user-right-buttons" style="width: 100%; display: inline-block:">
                     <div class="account-options">
-                        <div id="impersonate" style="width:50%; display: inline-block; float:left;">
+                        <div id="impersonate" style="width:50%; display: inline-block;">
                             <button type="button" class="impersonate-button">Impersonate</button>
                         </div>
-                        <div id="password" style="width:50%;display: inline-block; float:left;">
+                        <div id="password" style="width:50%;display: inline-block;">
                             <button type="submit" class="change-password-button">Change Password
                             </button>
                         </div>
@@ -275,7 +275,7 @@
             </div>
 
             <div id="secondary-user-details"
-                 style="background-color:white; width:100%; color: black; float:left; margin: auto; display: inline-block;">
+                 style="background-color:white; width:100%; color: black; margin: auto; display: inline-block;">
                 <div class="user-info-box">
                     <h3 class="user-info-title">STATUS</h3>
                     <p style="text-align: center;">ACTIVE</p>

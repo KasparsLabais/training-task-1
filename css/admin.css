@@ -1,26 +1,26 @@
 /* RAMPANT NAV BAR 100% */
 
 .rampant-nav {
-    list-style-type: none;
-    background-color: black;
-    text-transform: uppercase;
+    display: inline-block;
     width: 100%;
+    background-color: black;
+    list-style-type: none;
+    text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     color: rgba(0, 0, 0, 0.87);
-    float: left;
 }
 
 
 .rampant-nav-title {
-    float: left;
+    display:inline-block;
     display: inline;
     color: white;
     text-decoration: none;
 }
 
 .rampant-nav-select {
-    float: left;
+    fdisplay:inline-block;
     display: inline;
     height: 70px;
 }
@@ -107,7 +107,7 @@
 
 .user-info-box {
     width: 20%;
-    float: left;
+    display:inline-block;
     font-family: "Roboto", sans-serif;
 }
 
@@ -119,7 +119,7 @@
     background-color: #212121;
     height: 100%;
     width: 20%;
-    float: left;
+    display:inline-block;
 }
 
 .left-div h3 {
@@ -127,13 +127,13 @@
     /*margin-left: 20px;*/
 }
 .small-admin-panel {
-    float: right;
+    display:inline-block;
     width: 100%;
 }
 
 .small-admin-sidebar {
 background: black;
-    float: left;
+    display:inline-block;
     width: 100%;
 }
 
@@ -171,7 +171,7 @@ background: black;
 
 .small-admin-panel .small-admin-text {
     width: 80%;
-    float:left;
+    display:inline-block;
     text-align: right;
 }
 
@@ -193,7 +193,7 @@ background: black;
 
 .small-admin-panel .small-admin-image {
     width: 16%;
-    float: left;
+    display:inline-block;
     background-image: url("https://i.kym-cdn.com/photos/images/original/001/285/680/e17.jpg");
     border-radius: 50%;
     height: 45px;
@@ -266,7 +266,7 @@ ul li:hover {
     background: #000000;
 }
 .user-heading {
-    float: left;
+    display:inline-block;
     font-family: Roboto, SansSerif;
     font-weight: 400;
     background-color: grey;
@@ -274,7 +274,7 @@ ul li:hover {
 }
 
 .user-info-block .navigation {
-    float: left;
+    display:inline-block;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -310,7 +310,7 @@ ul li:hover {
     height: 40px;
     width: 45%;
     border: none;
-    float: left;
+    display:inline-block;
     margin-left: 10px;
     font-family: Roboto, SansSerif;
     font-weight: 400;
@@ -329,7 +329,7 @@ ul li:hover {
     height: 40px;
     width: 45%;
     border: none;
-    float: left;
+    display:inline-block;
     margin-left: 10px;
     font-family: Roboto, SansSerif;
     font-weight: 400;
@@ -347,7 +347,7 @@ ul li:hover {
     width: 100%;
     display: inline-block;
     color: black;
-    float: left;
+    display:inline-block;
 }
 
 .user-info-box {
