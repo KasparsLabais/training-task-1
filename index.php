@@ -19,7 +19,7 @@
     <div id="rampant-nav-bar">
         <nav>
             <ul class="rampant-nav">
-                <img src="https://www.rampant.tv/images/rampant_logo.png" alt="Rampant Logo" class="rampant-nav-title">
+                <!--<img src="https://www.rampant.tv/images/rampant_logo.png" alt="Rampant Logo" class="rampant-nav-title">-->
                 <li class="rampant-nav-select"><a href="#">CHANNELS</a></li>
                 <li class="rampant-nav-select"><a href="#">FORUM</a></li>
                 <li class="rampant-nav-select"><a href="#">VIDEOS</a></li>
@@ -148,8 +148,7 @@
 
         </div>
 
-        <div id="secondary-user-details"
-             style="background-color:white; width:100%; color: black; margin: auto; display: inline-block;">
+        <div id="secondary-user-details">
             <div class="user-info-box">
                 <h3 class="user-info-title">STATUS</h3>
                 <p style="text-align: center;">ACTIVE</p>
@@ -173,8 +172,7 @@
         </div>
 
 
-        <div id="subscription-details"
-             style="width: 100%;height: 500px;background-color: white;color: black;font-family: Roboto, sans-serif;">
+        <div id="subscription-details">
             <h2>Subscription Info</h2>
             <table style="width:100%">
                 <tr>
@@ -187,107 +185,44 @@
                     <th>Rebilled From</th>
                 </tr>
                 <tr>
-                    <th>145846</th>
-                    <th>554</th>
-                    <th>16/05/2019 07:22:30</th>
-                    <th>15/06/2019 07:22:30</th>
-                    <th>7</th>
-                    <th>0</th>
-                    <th>114740</th>
+                    <td>145846</td>
+                    <td>554</td>
+                    <td>16/05/2019 07:22:30</td>
+                    <td>15/06/2019 07:22:30</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>114740</td>
                 </tr>
                 <tr>
-                    <th>145846</th>
-                    <th>554</th>
-                    <th>16/05/2019 07:22:30</th>
-                    <th>15/06/2019 07:22:30</th>
-                    <th>7</th>
-                    <th>0</th>
-                    <th>114740</th>
+                    <td>145846</td>
+                    <td>554</td>
+                    <td>16/05/2019 07:22:30</td>
+                    <td>15/06/2019 07:22:30</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>114740</td>
                 </tr>
                 <tr>
-                    <th>145846</th>
-                    <th>554</th>
-                    <th>16/05/2019 07:22:30</th>
-                    <th>15/06/2019 07:22:30</th>
-                    <th>7</th>
-                    <th>0</th>
-                    <th>114740</th>
+                    <td>145846</td>
+                    <td>554</td>
+                    <td>16/05/2019 07:22:30</td>
+                    <td>15/06/2019 07:22:30</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>114740</td>
                 </tr>
                 <tr>
-                    <th>145846</th>
-                    <th>554</th>
-                    <th>16/05/2019 07:22:30</th>
-                    <th>15/06/2019 07:22:30</th>
-                    <th>7</th>
-                    <th>0</th>
-                    <th>114740</th>
+                    <td>145846</td>
+                    <td>554</td>
+                    <td>16/05/2019 07:22:30</td>
+                    <td>15/06/2019 07:22:30</td>
+                    <td>7</td>
+                    <td>0</td>
+                    <td>114740</td>
                 </tr>
-                <tr>
-                    <th>145846</th>
-                    <th>554</th>
-                    <th>16/05/2019 07:22:30</th>
-                    <th>15/06/2019 07:22:30</th>
-                    <th>7</th>
-                    <th>0</th>
-                    <th>114740</th>
-                </tr>
-                <tr>
-                    <th>145846</th>
-                    <th>554</th>
-                    <th>16/05/2019 07:22:30</th>
-                    <th>15/06/2019 07:22:30</th>
-                    <th>7</th>
-                    <th>0</th>
-                    <th>114740</th>
-                </tr>
-                <tr>
-                    <th>145846</th>
-                    <th>554</th>
-                    <th>16/05/2019 07:22:30</th>
-                    <th>15/06/2019 07:22:30</th>
-                    <th>7</th>
-                    <th>0</th>
-                    <th>114740</th>
-                </tr>
-                <tr>
-                    <th>145846</th>
-                    <th>554</th>
-                    <th>16/05/2019 07:22:30</th>
-                    <th>15/06/2019 07:22:30</th>
-                    <th>7</th>
-                    <th>0</th>
-                    <th>114740</th>
-                </tr>
-                <tr>
-                    <th>145846</th>
-                    <th>554</th>
-                    <th>16/05/2019 07:22:30</th>
-                    <th>15/06/2019 07:22:30</th>
-                    <th>7</th>
-                    <th>0</th>
-                    <th>114740</th>
-                </tr>
-                <tr>
-                    <th>145846</th>
-                    <th>554</th>
-                    <th>16/05/2019 07:22:30</th>
-                    <th>15/06/2019 07:22:30</th>
-                    <th>7</th>
-                    <th>0</th>
-                    <th>114740</th>
-                </tr>
-                <tr>
-                    <th>145846</th>
-                    <th>554</th>
-                    <th>16/05/2019 07:22:30</th>
-                    <th>15/06/2019 07:22:30</th>
-                    <th>7</th>
-                    <th>0</th>
-                    <th>114740</th>
-                </tr>
+
             </table>
         </div>
-
     </div>
 
 </body>
