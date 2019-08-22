@@ -122,7 +122,7 @@
     <div id="admin-info-container">
         <div id="main-user-details">
             <div class="user-info-left"
-                 style="height: 200px; width: 50%; background-color: red; display: inline-block;">
+                 style="height: 200px; width: 50%; display: inline-block;">
                 <div class="user-details-left" >
                     <div class="user-heading">
                     <h3>ReturnOfDemac</h3>
