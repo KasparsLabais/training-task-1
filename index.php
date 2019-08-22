@@ -171,7 +171,7 @@
             </div>
         </div>
 
-
+<!--
         <div id="subscription-details">
             <h2>Subscription Info</h2>
             <table style="width:100%">
@@ -224,6 +224,6 @@
             </table>
         </div>
     </div>
-
+    -->
 </body>
 </html>

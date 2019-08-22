@@ -79,7 +79,7 @@
 /* MAIN INFO CONTAINER */
 
 #main-container {
-    background-color: #3C3842;
+    background-color: #191a1e;
     width: 100%;
 }
 
@@ -186,8 +186,8 @@
     margin-top: 0;
     padding-right: 20px;
     font-family: 'Oswald', sans-serif;
-    font-weight: 200;
-    color: #9E9E9E;
+    color: white;
+    font-size: 15px;
 }
 
 .small-admin-panel .small-admin-image {
@@ -259,7 +259,6 @@ ul li:hover {
 .user-heading h3 {
     color: #dddddd;
     font-size: 30px;
-    margin-bottom: -17px;
 }
 
 
@@ -325,34 +324,36 @@ ul li:hover {
 
 /* USER SECONDARY DETAILS */
 #secondary-user-details {
-    width: 90%;
+    width: calc(100% - 20px);
+    margin-left: 10px;
     color: black;
-    margin: auto;
     display: inline-block;
-    background-color: #2f323a;
-    margin-left: 64px;
+    background-color: #191a1e;
 }
 
 .user-info-box {
-    width: 19.7%;
+    width: 19.5%;
     text-align: center;
     font-family: Roboto, SansSerif;
     display: inline-block;
-    background-color: #2f323a;
+    background-color: #191a1e;
+    border-right: 2px solid #2f323a;
 }
 
 .user-info-title {
     font-size: 0.8rem;
     font-family: "Roboto", sans-serif;
     color: #eee;
+    background-color: #191a1e;
     font-weight: lighter;
+    padding: 8px;
 
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #eee;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 .item-father {
@@ -363,7 +364,7 @@ p {
 #admin-info-container {
     width:80%;
     height: 1500px;
-    background-color: #9E9E9E;
+    background-color: #191a1e;
     display: inline-block;
     vertical-align: top;
 }
@@ -371,6 +372,7 @@ p {
 
 /* SUBSCRIPTION DETAILS AND TABLE STARTS HERE */
 
+/*
 #subscription-details {
     display: inline-block;
     width: 100%;
@@ -409,4 +411,4 @@ th {
     font-weight: lighter;
 }
 
-
+*/
