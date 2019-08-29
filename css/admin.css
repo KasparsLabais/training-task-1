@@ -169,8 +169,6 @@
 }
 
 .small-admin-panel .small-admin-text {
-    width: 80%;
-    display: contents;
     text-align: right;
 }
 
@@ -229,6 +227,26 @@ ul li:hover {
 .display-none {
     transition: 1s all linear;
     display: none;
+}
+
+/* COLLAPSING NAV BAR CSS */
+
+.burger {
+    display: table;
+    cursor: pointer;
+    padding-left: 10px;
+    margin: 0;
+    width: 50px;
+    height: 45px;
+    border-bottom-right-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26)
+}
+
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
 }
 
 /* USER DETAILS TESTING CSS */
@@ -412,4 +430,29 @@ th {
     font-weight: lighter;
 }
 
-*/
+ */
+
+
+/* JAVASCRIPT TOGGLE MENU */
+
+.toggle-nav-button {
+      width: 100px;
+      height: 100px;
+      background-color: grey;
+      background-repeat: no-repeat;
+      cursor: pointer;
+  }
+.toggle-nav-button:hover {
+    opacity: 0.5;
+}
+
+
+.nav-sidebar {
+
+
+
+
+}
+
+
+
