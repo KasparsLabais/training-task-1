@@ -21,7 +21,7 @@
 }
 
 .rampant-nav-select {
-    fdisplay:inline-block;
+    display:inline-block;
     display: inline;
     height: 70px;
 }
@@ -223,8 +223,13 @@ ul {
     color: white;
     cursor: pointer;
     transition: 500ms all ease-out;
+    overflow: hidden;
     display: none;
+
 }
+
+.show {display: block;}
+
 
 ul li:hover {
     background-position: 0%;
@@ -238,23 +243,44 @@ ul li:hover {
 
 /* COLLAPSING NAV BAR CSS */
 
+
+.active, .item-father:hover {
+    background-color: pink;
+}
+
 .burger {
-    display: table;
     cursor: pointer;
-    padding-left: 10px;
-    margin-bottom: 40px;
-    width: 84px;
-    height: 69px;
-    border-bottom-right-radius: 100%;
+    width: 15%;
+    color: #CFD8DC;
+    line-height: 3rem;
     background-color: #2f323a;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    border-bottom: 1px solid;
+    border-color: white;
 }
 
 .burger div{
     width: 25px;
     height: 3px;
     background-color: white;
-    margin: 5px;
+}
+.burger:hover{
+    opacity: 0.5;
+}
+
+body[nav="0"] .burger {
+    transition: width 1s ease-in-out;
+    overflow: hidden;
+    width: 4%
+}
+
+body[nav="1"] .burger {
+    transition: width 1s ease-out;
+    overflow: hidden;
+    width: 15%
 }
 
 body[nav="0"] .left-div {
@@ -263,14 +289,32 @@ body[nav="0"] .left-div {
     width: 4%;
 }
 
+body[nav="1"] .left-div {
+    overflow: hidden;
+    transition: width 1s ease-out;
+    width: 15%
+}
+
 body[nav="0"] .nav-sub-header {
     display: none;
     }
+
+    
+body[nav="1"] .nav-sub-header {
+    transition: width 1s ease-out;
+    overflow: hidden;
+    width: 15%
+}
 
 body[nav="0"] .item-child {
         display: none;
         }
         
+body[nav="1"] .burger {
+    transition: width 1s ease-out;
+    overflow: hidden;
+    width: 15%
+}
 
 body[nav="0"] #stream-form p {
             display: none;
@@ -412,10 +456,21 @@ p {
     font-weight: 500;
 }
 
-.item-father {
+
+ .item-father {
     margin-top: 0;
     font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    padding-left: 20px;
 }
+
+.item-father:hover {
+    opacity:0.5;
+}
+.item-father:hover {
+        opacity:0.5;
+    }
 
 #admin-info-container {
     width:80%;
@@ -471,25 +526,4 @@ th {
 
 
 /* JAVASCRIPT TOGGLE MENU */
-
-.toggle-nav-button {
-      width: 100px;
-      height: 100px;
-      background-color: grey;
-      background-repeat: no-repeat;
-      cursor: pointer;
-  }
-.toggle-nav-button:hover {
-    opacity: 0.5;
-}
-
-
-.nav-sidebar {
-
-
-
-
-}
-
-
 

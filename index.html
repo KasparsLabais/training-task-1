@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/admin.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/265560036b.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+
     <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+
+
     <script type="text/javascript" src="navbar.js"></script>
 
 </head>
@@ -43,10 +48,11 @@
 </div>
 <div id="main-container">
         <div class="burger" onclick="toggleNav();">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
+            <h3 class="item-father"><i class="fas fa-bars" style="padding-right:20px; font-size: 20px;"></i><span class="nav-sub-header">HIDE NAVIGATION</span>
+            </h3>
+        </div>
+
+            
     <div class="left-div">
         <div class="small-admin-panel">
             <div class="small-admin-text">
@@ -55,8 +61,9 @@
 
             </div>
 
-            <div class="small-admin-sidebar">
-                <h3 class="item-father"><i class="fas fa-ad" style="padding-right:20px; font-size: 20px;"></i><span class="nav-sub-header">Marketing</span></h3>
+            <div class="small-admin-sidebar" onclick="myFunction()">
+                <h3 class="item-father"><i class="fas fa-ad" style="padding-right:20px; font-size: 20px;"></i><span class="nav-sub-header">Marketing</span>
+                    </h3>
                 <ul class="item-child">
                     <li><a href="#">Promo Manager</a></li>
                 </ul>
@@ -116,7 +123,6 @@
             </div>
         </div>
     </div>
-
     <div id="admin-info-container">
         <div id="main-user-details">
             <div class="user-info-left"

@@ -8,3 +8,8 @@ function toggleNav(){
     }
     
 }
+
+
+function myFunction() {
+    document.getElementsByClassName(".item-child li").classList.toggle("none");
+  }
