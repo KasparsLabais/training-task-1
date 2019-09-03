@@ -136,8 +136,8 @@ body {
 }
 
 .small-admin-sidebar {
-    background: #191a1e;
-    display:inline-block;
+    background: #2f323a;
+
     width: 100%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 }
@@ -218,6 +218,8 @@ ul {
 .stream-form-input {
     display:none;
 }
+
+
 .item-child li{
     padding-left: 40px;
     padding-top: 10px;
@@ -229,7 +231,6 @@ ul {
     cursor: pointer;
     transition: 500ms all ease-out;
     overflow: hidden;
-    display: none;
 
 }
 
@@ -249,8 +250,8 @@ ul li:hover {
 /* COLLAPSING NAV BAR CSS */
 
 
-.active, .item-father:hover {
-    background-color: pink;
+.active {
+    background-color: black;
 }
 
 .burger {
@@ -399,7 +400,6 @@ body[nav="0"] .stream-form-input {
     display:inline-block;
     margin-left: 10px;
     font-weight: 400;
-    font-size: 1rem;
     cursor: pointer;
     background-color: #5c9df5;
     color: white;
@@ -419,9 +419,9 @@ body[nav="0"] .stream-form-input {
     margin-left: 10px;
     font-family: Roboto, SansSerif;
     font-weight: 400;
-    font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
+    background-color: grey;
 }
 
 .change-password-button:hover {
@@ -447,7 +447,7 @@ body[nav="0"] .stream-form-input {
 }
 
 .user-info-title {
-    font-size: 0.8rem;
+    font-size: 16px;
     font-family: "Roboto", sans-serif;
     color: #eee;
     font-weight: lighter;
@@ -468,6 +468,7 @@ p {
     cursor: pointer;
     font-weight: 500;
     padding-left: 20px;
+    display: block;
 }
 
 .item-father:hover {
@@ -485,6 +486,18 @@ p {
     vertical-align: top;
 }
 
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
 
 /* SUBSCRIPTION DETAILS AND TABLE STARTS HERE */
 
