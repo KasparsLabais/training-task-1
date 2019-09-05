@@ -80,11 +80,23 @@ body {
 
 /* RAMPANT NAV BAR CODE ENDS HERE */
 
+.dropdown-btn {
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
 
 /* MAIN INFO CONTAINER */
 
 #main-container {
-    background-color: #252525;
+    background-color: #f6f5fa;
     width: 100%;
 }
 
@@ -115,20 +127,22 @@ body {
     font-size: 16px;
 }
 
-/* ADDING NEW SHIT
- */
+/* LEFT NAV BAR CSS BEGINNING */
 
 .left-div {
     background-color: #191a1e;
-    height: 100%;
-    width: 15%;
+    height: 90%;
     display:inline-block;
+    z-index: 1;
+    overflow-x: hidden;
+    width: 18%;
 }
 
 .left-div h3 {
     color: #ECEFF1;
-    /*margin-left: 20px;*/
 }
+
+/* 
 .small-admin-panel {
     display:inline-block;
     width: 100%;
@@ -137,23 +151,33 @@ body {
 
 .small-admin-sidebar {
     background: #2f323a;
-
     width: 100%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 }
-
+*/ 
 .small-admin-sidebar h3 {
     padding-left: 20px;
-    color: #CFD8DC; /*#1976D2;*/
     line-height: 3rem;
     background-color: #2f323a;
-    /*border-bottom: 2px solid #1976D2;*/
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 0;
-
+    font-size: 14px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-end: 0;
 }
+
+.fa-angle-down {
+    padding-left: 20px;
+}
+/* ADDING CARET DOWN CSS DROPDOWN */
+
+.active {
+    background-color: green;
+    color: white;
+  }
 
 .small-admin-sidebar ul li {
     font-family: 'Roboto', sans-serif;
@@ -220,7 +244,7 @@ ul {
 }
 
 
-.item-child li{
+.item-child{
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -231,11 +255,15 @@ ul {
     cursor: pointer;
     transition: 500ms all ease-out;
     overflow: hidden;
-
+    font-size: 13px;
+    display: none;
 }
-
-.show {display: block;}
-
+    
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
 
 ul li:hover {
     background-position: 0%;
@@ -249,14 +277,9 @@ ul li:hover {
 
 /* COLLAPSING NAV BAR CSS */
 
-
-.active {
-    background-color: black;
-}
-
 .burger {
     cursor: pointer;
-    width: 15%;
+    width: 18%;
     color: #CFD8DC;
     line-height: 3rem;
     background-color: #2f323a;
@@ -265,7 +288,7 @@ ul li:hover {
     margin-bottom: 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
     border-bottom: 1px solid;
-    border-color: white;
+    border-color: rgba(0,0,0,0.19);
 }
 
 .burger div{
@@ -286,7 +309,7 @@ body[nav="0"] .burger {
 body[nav="1"] .burger {
     transition: width 1s ease-out;
     overflow: hidden;
-    width: 15%
+    width: 18%;
 }
 
 body[nav="0"] .left-div {
@@ -298,7 +321,7 @@ body[nav="0"] .left-div {
 body[nav="1"] .left-div {
     overflow: hidden;
     transition: width 1s ease-out;
-    width: 15%
+    width: 18%;
 }
 
 body[nav="0"] .nav-sub-header {
@@ -309,18 +332,13 @@ body[nav="0"] .nav-sub-header {
 body[nav="1"] .nav-sub-header {
     transition: width 1s ease-out;
     overflow: hidden;
-    width: 15%
+    width: 18%;
 }
 
 body[nav="0"] .item-child {
         display: none;
         }
-        
-body[nav="1"] .burger {
-    transition: width 1s ease-out;
-    overflow: hidden;
-    width: 15%
-}
+
 
 body[nav="0"] #stream-form p {
             display: none;
@@ -333,7 +351,13 @@ body[nav="0"] .stream-form-input {
  body[nav="0"] .small-admin-text {
              display: none;
                     }
-        
+      
+ body[nav="0"] .fa-angle-down {
+              display: none;
+                          }
+
+
+
 
 
 /* USER DETAILS TESTING CSS */
@@ -342,10 +366,11 @@ body[nav="0"] .stream-form-input {
 
 
 #main-user-details {
-    width: 100%;
-    height: 192px;
-    padding-top: 22px;
-    background-color: #252525;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: -2%;
+    background-color: #f6f5fa;
     display: flex;
     color: white;
 }
@@ -353,26 +378,26 @@ body[nav="0"] .stream-form-input {
 .user-details-left {
     display: inline-block;
     width: 100%;
-    height: 200px;
     padding-left: 200px;
-    background-color: #252525;
+    background-color: #f6f5fa;
     margin-top: 50px;
 }
 
 .user-heading {
     display:inline;
     font-family: Roboto, SansSerif;
+    color: #2d2e35;
+    font-size: 30px;
+    display: contents;
 }
 
 .user-heading h3 {
-    color: #dddddd;
     font-size: 30px;
     display: contents;
 }
 
 
 .user-heading p {
-    color: #dddddd;
     font-size: 14px;
 }
 
@@ -422,6 +447,7 @@ body[nav="0"] .stream-form-input {
     cursor: pointer;
     border-radius: 5px;
     background-color: grey;
+    color: #FFF;
 }
 
 .change-password-button:hover {
@@ -435,7 +461,6 @@ body[nav="0"] .stream-form-input {
     margin-left: 10px;
     color: black;
     display: inline-block;
-    background-color: #252525;
 }
 
 .user-info-box {
@@ -443,32 +468,32 @@ body[nav="0"] .stream-form-input {
     text-align: center;
     font-family: Roboto, SansSerif;
     display: inline-block;
-    border-right: 2px solid #dddddd;
+    border-right: 2.5px solid #d1d4dc;
 }
 
 .user-info-title {
-    font-size: 16px;
+    font-size: 13px;
     font-family: "Roboto", sans-serif;
-    color: #eee;
+    color: #2d2e35;
     font-weight: lighter;
-    padding: 8px;
-
 }
 
 p {
     font-size: 1.2rem;
-    color: #eee;
     font-weight: 500;
 }
 
 
  .item-father {
     margin-top: 0;
+    margin-bottom: 0;
     font-size: 16px;
     cursor: pointer;
     font-weight: 500;
     padding-left: 20px;
     display: block;
+    font-size: 14px;
+    
 }
 
 .item-father:hover {
@@ -481,7 +506,7 @@ p {
 #admin-info-container {
     width:80%;
     height: 1500px;
-    background-color: #252525;
+    background-color: #f6f5fa;
     display: inline-block;
     vertical-align: top;
 }
