@@ -179,6 +179,7 @@ body {
     border-bottom: 1px solid;
     border-color: rgba(0,0,0,0.19);
     overflow-x: hidden;
+    width: 450px;
     
 }
 
@@ -187,9 +188,7 @@ body {
 
 
 }
-.fa-angle-down {
-    padding-left: 20px;
-}
+
 .fa-bars {
     color: #f6f5fa;
 }
@@ -204,8 +203,14 @@ body {
     padding-left: 20px;
 }
 
+.fa-angle-down {
+    margin-right: 200px;
+    vertical-align: middle;
+    float: right;
+    }
 
 /* ADDING CARET DOWN CSS DROPDOWN */
+
 
 .small-admin-sidebar ul li {
     font-family: 'Roboto', sans-serif;
@@ -215,7 +220,26 @@ body {
     background-color: #2f323a;
     border-bottom: 1px solid;
     border-color: rgba(0,0,0,0.19);
+    
 }
+
+.small-admin-sidebar ul li {
+    background-image: linear-gradient(45deg, #8181814f, 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: 350ms all ease-in-out;
+}
+
+.small-admin-sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
 
 .small-admin-sidebar ul li a {
     text-decoration: none;
@@ -277,17 +301,6 @@ ul {
     margin: 0;
     list-style: none;
 }
-
-.small-admin-sidebar ul li{
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-image: linear-gradient(45deg, #8181814f, 50%, transparent 50%);
-    background-position: 100%;
-    background-size: 400%;
-    transition: 350ms all ease-in-out;
-    }
-
 
 
 .item-child{
