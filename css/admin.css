@@ -179,12 +179,32 @@ body {
     border-bottom: 1px solid;
     border-color: rgba(0,0,0,0.19);
     overflow-x: hidden;
-    width: 450px;
+    
 }
 
+.small-admin-sidebar h3:hover {
+    background-image: linear-gradient(to bottom, #6ba0d1, #66a0d8, #629fdf, #5f9fe5, #5d9eec, #5e9dec, #5e9cec, #5f9bec , #6199e6, #6398df, #6496d9, #6694d3);
+
+
+}
 .fa-angle-down {
     padding-left: 20px;
 }
+.fa-bars {
+    color: #f6f5fa;
+}
+
+.nav-bar-icons {
+    font-size: 14px !important;
+    color: pink;
+    padding-left: 20px;
+}
+
+.nav-sub-header {
+    padding-left: 20px;
+}
+
+
 /* ADDING CARET DOWN CSS DROPDOWN */
 
 .small-admin-sidebar ul li {
@@ -193,6 +213,8 @@ body {
     line-height: 2rem;
     color: #CFD8DC;
     background-color: #2f323a;
+    border-bottom: 1px solid;
+    border-color: rgba(0,0,0,0.19);
 }
 
 .small-admin-sidebar ul li a {
@@ -281,7 +303,6 @@ ul {
     overflow: hidden;
     font-size: 13px;
     display: none;
-    text-align: 
 }
 
         
@@ -326,6 +347,13 @@ ul li:hover {
 }
 .burger:hover{
     opacity: 0.5;
+}
+
+body[nav="0"] .left-div:hover {
+    transition: width 1s ease-in-out;
+    overflow: hidden;
+    width: 18%;
+    color:white;
 }
 
 body[nav="0"] .burger {
