@@ -204,11 +204,9 @@ body {
 }
 
 .fa-angle-down {
-    margin-right: 200px;
-    vertical-align: middle;
+    margin-right: 180px;
     float: right;
     padding-top: 15px;
-    
     }
 
 /* ADDING CARET DOWN CSS DROPDOWN */
@@ -570,7 +568,7 @@ p {
     border-bottom: 1px solid;
     border-color: rgba(0,0,0,0.19);
     overflow-x: hidden;
-    width: 279px;
+    width: 323px;
 }
 
 .item-father:hover {
