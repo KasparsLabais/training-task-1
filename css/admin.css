@@ -207,6 +207,8 @@ body {
     margin-right: 200px;
     vertical-align: middle;
     float: right;
+    padding-top: 15px;
+    
     }
 
 /* ADDING CARET DOWN CSS DROPDOWN */
@@ -336,6 +338,12 @@ ul li:hover {
     display: none;
 }
 
+.stream-form-input {
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
 /* COLLAPSING NAV BAR CSS */
 
 .burger {
@@ -356,17 +364,10 @@ ul li:hover {
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: #191a1e;
 }
 .burger:hover{
     opacity: 0.5;
-}
-
-body[nav="0"] .left-div:hover {
-    transition: width 1s ease-in-out;
-    overflow: hidden;
-    width: 18%;
-    color:white;
 }
 
 body[nav="0"] .burger {
