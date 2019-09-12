@@ -1,7 +1,25 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .hidden-xs {
+        display: none!important;
+    }
+}
 
-body {
-    background-color: #000000 !important;
-    margin: 0;
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/*Large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+
+.hidden-xs {
+    display: block;
 }
 
 /* RAMPANT NAV BAR 100% */
@@ -38,6 +56,7 @@ body {
     padding: 25px 15px;
     text-decoration: none;
     display: inline-block;
+    width: 20;
 }
 
 
@@ -609,6 +628,7 @@ body[nav="0"] #admin-info-container {
     background-color: #262626;
     padding-left: 8px;
   }
+  
   
 
 /* SUBSCRIPTION DETAILS AND TABLE STARTS HERE */
