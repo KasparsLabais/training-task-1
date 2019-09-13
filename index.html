@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="css/admin.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/265560036b.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -18,42 +19,10 @@
 </head>
 
 <body nav="0">
- 
-    <!-- FOOTER CODE FOR ADMIN BAR
     <div class="container">
-
-            <footer style="
-            position: fixed;
-            height: 70px;
-            background-color: #546E7A;
-            width: 100%;
-            bottom: 0;
-        ">
-            <div class="row" style="
-            margin-bottom: 5px;
-        "><p style="
-            margin: 0;
-            text-align: center;
-        "><i class="material-icons" style="
-            margin-top: -20px;
-            background-color: #546E7A;
-            /* padding-left: 15px; */
-            padding: 12px;
-            border-radius: 50px;
-            border: 1px solid #263238;
-        ">
-        keyboard_arrow_up
-        </i></p></div>
-            <div class="row"><p style="
-            margin-top: 0;
-            text-align: center;
-        ">Admin navbar</p></div>
-        </footer>
-    -->
-
         <div id="rampant-nav-bar">
             <navbar>
-                <ul class="rampant-nav">
+                <ul class="rampant-nav hidden-xs">
                     <!--<img src="https://www.rampant.tv/images/rampant_logo.png" alt="Rampant Logo" class="rampant-nav-title">-->
                     <li class="rampant-nav-select"><a href="">CHANNELS</a></li>
                     <li class="rampant-nav-select"><a href="#">FORUM</a></li>
@@ -77,9 +46,9 @@
         </div>
     </div>
     <div id="main-container">
-        <div class="burger" onclick="toggleNav();">
-            <h3 class="item-father"><i class="fas fa-bars"font-size: 20px;"></i><span
-                    class="nav-sub-header">HIDE NAVIGATION</span>
+        <div class="burger hidden-xs" onclick="toggleNav();">
+            <h3 class="item-father"><i class="fas fa-bars" font-size: 20px;"></i><span class="nav-sub-header">HIDE
+                    NAVIGATION</span>
             </h3>
         </div>
 
@@ -91,16 +60,16 @@
                 <p>Admin</p>
             </div> -->
             <div class="small-admin-sidebar">
-                <h3 class="dropdown-btn"><i class="fas fa-ad" class="nav-bar-icons"></i><span
-                        class="nav-sub-header" class="item-father">Marketing<i class="fa fa-angle-down"></i></span>
+                <h3 class="dropdown-btn"><i class="fas fa-ad" class="nav-bar-icons"></i><span class="nav-sub-header"
+                        class="item-father">Marketing<i class="fa fa-angle-down"></i></span>
                 </h3>
                 <ul class="item-child" class="dropdown-container">
                     <li><a href="#">Promo Manager</a></li>
                 </ul>
-                <h3 class="dropdown-btn"><i class="fas fa-marker" class="nav-bar-icons"></i><span
-                        class="nav-sub-header" class="item-father">Feeds</span>
+                <h3 class="dropdown-btn"><i class="fas fa-marker" class="nav-bar-icons"></i><span class="nav-sub-header"
+                        class="item-father">Feeds</span>
                     <i class="fa fa-angle-down"></i></h3>
-                <ul class="item-child"> 
+                <ul class="item-child">
                     <li><a href="#">Feeds Management</a></li>
                     <li><a href="#">Add New Feed</a></li>
                 </ul>
@@ -165,7 +134,7 @@
                     <i class="fa fa-angle-down"></i></h3>
                 <form id="stream-form" class="dropdown-container">
                     <p>
-           Force the default stream id to</p>
+                        Force the default stream id to</p>
                     <input class="stream-form-input" type="number" name="from-value" min="1" max="99999">
                     <p>for</p>
                     <input class="stream-form-input" type="number" name="to-value" min="1" max="99999">
@@ -186,56 +155,81 @@
         </div>
         <div id="admin-info-container">
             <div id="main-user-details">
-                <div class="user-info-left" style="height: 200px; width: 50%; display: inline-block;">
-                    <div class="user-details-left">
-                        <div class="user-heading">
-                            <h3>ReturnOfDemac</h3>
-                            <p>Registered: 19/06/2018</p>
-                        </div>
+                <div class="user-details-left">
+                    <div class="user-heading">
+                        <h3>ReturnOfDemac</h3>
+                        <p>Registered: 19/06/2018</p>
                     </div>
                 </div>
-
-                <div class="user-info-right">
-                    <div class="user-right-buttons" style="width: 100%; display: inline-block;">
-                        <div class="account-options">
-                            <div id="impersonate" style="width:50%; display: inline-block;">
-                                <button type="button" class="impersonate-button">Impersonate</button>
-                            </div>
-                            <div id="password" style="width:50%;display: inline-block;">
-                                <button type="submit" class="change-password-button">Change Password
-                                </button>
+            </div>
+            <div class="user-info-right">
+                <div class="user-right-buttons">
+                    <div class="account-options">
+                        <div id="impersonate">
+                            <button type="button" class="impersonate-button">Impersonate</button>
+                        </div>
+                        <div id="password">
+                            <button type="submit" class="change-password-button">Change Password
+                            </button>
+                            <div id="secondary-user-details">
+                                <div class="user-info-box">
+                                    <h3 class="user-info-title">STATUS</h3>
+                                    <p style="text-align: center;">ACTIVE</p>
+                                </div>
+                                <div class="user-info-box">
+                                    <h3 class="user-info-title">CCIVRID</h3>
+                                    <p style="text-align: center;">2913291</p>
+                                </div>
+                                <div class="user-info-box">
+                                    <h3 class="user-info-title">VIP LEVEL</h3>
+                                    <p style="text-align: center;">GOLD</p>
+                                </div>
+                                <div class="user-info-box">
+                                        <h3 class="user-info-title">DirtyChat ID</h3>
+                                        <p style="text-align: center;">483788</p>
+                                    </div>
+                                <div class="user-info-box">
+                                    <h3 class="user-info-title email-p">EMAIL</h3>
+                                    <p>dmclaren@firestormmedia.tv</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
 
-            </div>
-
-            <div id="secondary-user-details">
-                <div class="user-info-box">
-                    <h3 class="user-info-title">STATUS</h3>
-                    <p style="text-align: center;">ACTIVE</p>
-                </div>
-                <div class="user-info-box">
-                    <h3 class="user-info-title">CCIVRID</h3>
-                    <p style="text-align: center;">2913291</p>
-                </div>
-                <div class="user-info-box">
-                    <h3 class="user-info-title">VIP LEVEL</h3>
-                    <p style="text-align: center;">GOLD</p>
-                </div>
-                <div class="user-info-box">
-                    <h3 class="user-info-title">EMAIL</h3>
-                    <p style="text-align: center;">dmclaren@firestormmedia.tv</p>
-                </div>
-                <div class="user-info-box">
-                    <h3 class="user-info-title">DirtyChat ID</h3>
-                    <p style="text-align: center;">483788</p>
-                </div>
-            </div>
-
-            <!--
+                        <footer class="nav-footer" style="
+            height: 70px;
+            background-color: #5c9df5;
+            width: 100%;
+            bottom: 0;
+            position: fixed;
+            
+            color: white;
+        ">
+                            <div class="row" style="
+            margin-bottom: 5px;
+        ">
+                                <p style="
+            margin: 0;
+            text-align: center;
+        "><i class="fas fa-caret-up" style="
+            margin-top: -20px;
+            background-color: #5c9df5;
+            /* padding-left: 15px; */
+            padding: 12px;v
+            border-radius: 50px;
+            border: 1px solid #263238;
+        ">
+                                    
+                                    </i></p>
+                            </div>
+                            <div class="row">
+                                <p style="
+            margin-top: 0;
+            text-align: center;
+        ">Admin navbar</p>
+                            </div>
+                        </footer>
+                        <!--
         <div id="subscription-details">
             <h2>Subscription Info</h2>
             <table style="width:100%">
@@ -289,79 +283,79 @@
         </div>
     </div>
     -->
-        </div>
+                    </div>
 
-        <script>
-            /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-            var dropdown = document.getElementsByClassName("dropdown-btn");
-            var i;
+                    <script>
+                        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+                        var dropdown = document.getElementsByClassName("dropdown-btn");
+                        var i;
 
-            for (i = 0; i < dropdown.length; i++) {
-                dropdown[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var dropdownContent = this.nextElementSibling;
-                    if (dropdownContent.style.display === "block") {
-                        dropdownContent.style.display = "none";
-                    } else {
-                        dropdownContent.style.display = "block";
-                    }
-                });
-            }
+                        for (i = 0; i < dropdown.length; i++) {
+                            dropdown[i].addEventListener("click", function () {
+                                this.classList.toggle("active");
+                                var dropdownContent = this.nextElementSibling;
+                                if (dropdownContent.style.display === "block") {
+                                    dropdownContent.style.display = "none";
+                                } else {
+                                    dropdownContent.style.display = "block";
+                                }
+                            });
+                        }
 
-            function toggleNav() {
-                var body = document.getElementsByTagName('body')[0],
-                    open = body.getAttribute('sidenav');
-                if (open == 1) {
-                    body.setAttribute('sidenav', 0);
-                } else {
-                    body.setAttribute('sidenav', 1);
-                }
-            }
+                        function toggleNav() {
+                            var body = document.getElementsByTagName('body')[0],
+                                open = body.getAttribute('sidenav');
+                            if (open == 1) {
+                                body.setAttribute('sidenav', 0);
+                            } else {
+                                body.setAttribute('sidenav', 1);
+                            }
+                        }
 
-            function toggleNav() {
-                var body = document.getElementsByTagName('body')[0],
-                    open = body.getAttribute('nav');
-                if (open == 1) {
-                    body.setAttribute('nav', 0);
-                } else {
-                    body.setAttribute('nav', 1);
-                }
+                        function toggleNav() {
+                            var body = document.getElementsByTagName('body')[0],
+                                open = body.getAttribute('nav');
+                            if (open == 1) {
+                                body.setAttribute('nav', 0);
+                            } else {
+                                body.setAttribute('nav', 1);
+                            }
 
-            }
-            
-            var header = document.getElementByClassName("dropdown-btn");
-var btns = header.getElementsByClassName("dropdown-btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
+                        }
 
-  // Get the container element
-var btnContainer = document.getElementByClassName("dropdown-btn");
+                        var header = document.getElementByClassName("dropdown-btn");
+                        var btns = header.getElementsByClassName("dropdown-btn");
+                        for (var i = 0; i < btns.length; i++) {
+                            btns[i].addEventListener("click", function () {
+                                var current = document.getElementsByClassName("active");
+                                current[0].className = current[0].className.replace(" active", "");
+                                this.className += " active";
+                            });
+                        }
 
-// Get all buttons with class="btn" inside the container
-var btns = btnContainer.getElementsByClassName("dropdown-btn");
+                        // Get the container element
+                        var btnContainer = document.getElementByClassName("dropdown-btn");
 
-// Loop through the buttons and add the active class to the current/clicked button
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
+                        // Get all buttons with class="btn" inside the container
+                        var btns = btnContainer.getElementsByClassName("dropdown-btn");
 
-    // If there's no active class
-    if (current.length > 0) {
-      current[0].className = current[0].className.replace(" active", "");
-    }
+                        // Loop through the buttons and add the active class to the current/clicked button
+                        for (var i = 0; i < btns.length; i++) {
+                            btns[i].addEventListener("click", function () {
+                                var current = document.getElementsByClassName("active");
 
-    // Add the active class to the current/clicked button
-    this.className += " active";
-  });
-}
-        </script>
+                                // If there's no active class
+                                if (current.length > 0) {
+                                    current[0].className = current[0].className.replace(" active", "");
+                                }
 
-    </div>
+                                // Add the active class to the current/clicked button
+                                this.className += " active";
+                            });
+                        }
+                    </script>
+
+                </div>
 </body>
 
 </html>
