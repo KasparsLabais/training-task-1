@@ -37,6 +37,7 @@
 
     .impersonate-button {
     display: block;
+    width: 80%;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -99,9 +100,26 @@
 
 
         /* MOBILE NAV BAR BUILD */ 
+    .row {
+    margin-bottom: 5px;   
+    text-align-last: center;
+    }
+    
+        .swipe-up {
+        margin-top: -20px;
+        background-color: #5c9df5;
+        /* padding-left: 15px; */
+        padding: 12px;
+        border-radius: 50px;
+        border: 1px solid #263238;
+        
+     }
+
+
         #admin-info-container {
         position: fixed;
-        width: 100%;}
+        width: 100%;
+    }
             
 
         .mobile-admin-sidebar h3 {

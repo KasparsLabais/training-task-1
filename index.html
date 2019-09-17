@@ -158,30 +158,14 @@
     <div id="admin-info-container">
         <div id="bottom-nav-bar">
             <div class="header-of-items">
+            <div class="row" style="
+            margin-bottom: 5px;   
+            text-align-last: center;">
 
-
-
-                <div class="row" style="
-            margin-bottom: 5px;
-        ">
-                    <p style="
-            margin: 0;
-            text-align: center;"></p>
-                        <i class="fas fa-caret-up" style="
-            margin-top: -20px;
-            background-color: #5c9df5;
-            /* padding-left: 15px; */
-            padding: 12px;
-            border-radius: 50px;
-            border: 1px solid #263238; "></i></p>
+            
+            <i class="fas fa-caret-up swipe-up"></i>
                 </div>
-                <div class="row">
-                    <p style="
-            margin-top: 0;
-            text-align: center;
-            font-family: Roboto, SansSerif;
-        ">Admin navbar</p>
-                </div>
+        
             </div>
             <div class="mobile-admin-sidebar">
                 <h3 class="dropdown-btn"><i class="fas fa-ad" class="nav-bar-icons"></i><span class="nav-sub-header"
@@ -349,6 +333,7 @@
                             #bottom-nav-bar.active {
                                 top: 0;
                                 transition: all 1s ease-in;
+                                overflow-y: scroll;
                             }
 
                             .header-of-items {
@@ -362,8 +347,8 @@
                         </style>
 
                         <script>
-                            $("#bottom-nav-bar").on("click", function () {
-                                var self = $(this);
+                            $(".header-of-items").on("click", function () {
+                                var self = $("#bottom-nav-bar");
                                 if (self.hasClass("active")) {
                                     self.removeClass("active");
                                 } else {
