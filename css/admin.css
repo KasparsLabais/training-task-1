@@ -3,6 +3,8 @@
 p {
     font-size: 17px;
     font-weight: 500;
+    color: black;
+    font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -279,15 +281,68 @@ ul li:hover {
 
 
 
-
-
-
-
-
-
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
+
+
+    /* SLIDING NAV BAR */ 
+
+body[nav="1"] #admin-info-container {
+    transition: width 1s ease-out;
+    width: 80%;
+    height: 1500px;
+    background-color: #f6f5fa;
+    display: inline-block;
+    vertical-align: top;
+}
+body[nav="0"] .burger {
+    transition: width 1s ease-in-out;
+    overflow: hidden;
+    width: 10%
+}
+body[nav="1"] .burger {
+    transition: width 1s ease-out;
+    overflow: hidden;
+    width: 30%;
+}
+body[nav="0"] .left-div {
+    overflow: hidden;
+    transition: width 1s ease-in-out;
+    width: 10%; 
+    float: left;
+}
+body[nav="1"] .left-div {
+    overflow: hidden;
+    transition: width 1s ease-out;
+    width: 30%;
+}
+body[nav="0"] .nav-sub-header {
+    display: inline!important;
+}
+body[nav="1"] .nav-sub-header {
+    transition: width 1s ease-out;
+    overflow: hidden;
+    width: 18%;
+}
+body[nav="0"] .item-child {
+    display: none;
+}
+body[nav="0"] #stream-form p {
+    display: none;
+}
+body[nav="0"] .stream-form-input {
+    display: none;
+}
+body[nav="0"] .small-admin-text {
+    display: none;
+}
+body[nav="0"] .fa-angle-down {
+    display: none;
+}
+body[nav="0"] .small-admin-sidebar ul li {
+    display: none;
+}
 
     body {
         margin: 0;
@@ -299,6 +354,14 @@ ul li:hover {
     .hidden-xs {
         display: none!important;
     }
+
+    .user-heading h3 {
+        font-size: 30px;
+        display: contents;
+        color: black;
+        font-family: "Roboto", sans-serif;
+    }
+
     .user-info-left {
         height: 0px;
     }
@@ -328,7 +391,6 @@ ul li:hover {
         margin-left: auto;
         margin-right: auto;
         height: 40px;
-        ;
         border: none;
         display: inline-block;
         margin-left: auto;
