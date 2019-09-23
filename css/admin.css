@@ -431,8 +431,7 @@ body[nav="0"] .small-admin-sidebar ul li {
         font-weight: lighter;
     }
     .user-info-box {
-        padding-left: 5px;
-        padding-right: 5px;
+
         text-align: center;
         font-family: Roboto, SansSerif;
         display: inline-block;
@@ -605,6 +604,16 @@ body[nav="0"] .small-admin-sidebar ul li {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
+
+
+
+
+
+
+
+
+    width: 23%;
+    display: inline-block;
 
     .hidden-ml {
         display: none!important;
